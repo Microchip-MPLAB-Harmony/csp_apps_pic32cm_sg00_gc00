@@ -1,0 +1,14 @@
+format_version: v1.0
+configName: pic32cm_gc_curiosity_pro
+folderName: pic32cm_gc_curiosity_pro
+frameworkPath: C:\h3
+processor: PIC32CM5112GC00100
+projectName: pic32cm_gc_curiosity_pro
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: dev_packs\Microchip\PIC32CM-QUICKSILVER_ENG_DFP\0.0.384\PIC32CM-GC00\atdf\PIC32CM5112GC00100.atdf
