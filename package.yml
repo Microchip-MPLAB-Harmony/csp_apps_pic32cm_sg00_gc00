@@ -1,12 +1,12 @@
 package:
   format-version: "1.0.0"
-  name: "replaceme"
+  name: "csp_apps_pic32cm_sg_gc"
+  version: "v3.0.0"
   type: "application"
-  status: "beta"
+  status: "production"
   required: false
-  version: "1.0.0"
 
   dependencies:
     - name: "csp"
       type: "package"
-      version: "3.14.0"
+      version: "v3.20.0-E1"
