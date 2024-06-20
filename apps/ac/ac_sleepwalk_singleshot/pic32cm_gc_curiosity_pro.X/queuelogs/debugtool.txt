@@ -1,0 +1,1014 @@
+41426 1718884331700 XXXX 1718884331700, Thread 41426: XXXX 1718884331700, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884331700 XXXX 1718884331700, Thread 41426: XXXX 1718884331700, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884331710 XXXX 1718884331710, Thread 41426: XXXX 1718884331710, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331710 XXXX 1718884331710, Thread 41426: XXXX 1718884331710, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331710 XXXX 1718884331710, Thread 41426: XXXX 1718884331710, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331710 XXXX 1718884331710, Thread 41426: XXXX 1718884331710, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331712 XXXX 1718884331712, Thread 41426: XXXX 1718884331712, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331712 XXXX 1718884331712, Thread 41426: XXXX 1718884331712, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331712 XXXX 1718884331712, Thread 41426: XXXX 1718884331712, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331712 XXXX 1718884331712, Thread 41426: XXXX 1718884331712, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331714 XXXX 1718884331714, Thread 41426: XXXX 1718884331714, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331714 XXXX 1718884331714, Thread 41426: XXXX 1718884331714, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331714 XXXX 1718884331714, Thread 41426: XXXX 1718884331714, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884331725 XXXX 1718884331725, Thread 41426: XXXX 1718884331725, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884331725 ExecuteFunCall.call prog_write
+41426 1718884331725 XXXX 1718884331725, Thread 41426: XXXX 1718884331725, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331725 XXXX 1718884331725, Thread 41426: XXXX 1718884331725, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331727 XXXX 1718884331727, Thread 41426: XXXX 1718884331727, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331727 XXXX 1718884331727, Thread 41426: XXXX 1718884331727, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331727 XXXX 1718884331727, Thread 41426: XXXX 1718884331727, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331730 XXXX 1718884331730, Thread 41426: XXXX 1718884331730, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331730 XXXX 1718884331730, Thread 41426: XXXX 1718884331730, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331733 XXXX 1718884331733, Thread 41426: XXXX 1718884331733, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331733 XXXX 1718884331733, Thread 41426: XXXX 1718884331733, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331733 XXXX 1718884331733, Thread 41426: XXXX 1718884331733, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331735 XXXX 1718884331735, Thread 41426: XXXX 1718884331735, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331735 XXXX 1718884331735, Thread 41426: XXXX 1718884331735, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331735 XXXX 1718884331735, Thread 41426: XXXX 1718884331735, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884331735 XXXX 1718884331735, Thread 41426: XXXX 1718884331735, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884331755 XXXX 1718884331755, Thread 41426: XXXX 1718884331755, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331755 XXXX 1718884331755, Thread 41426: XXXX 1718884331755, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331756 XXXX 1718884331756, Thread 41426: XXXX 1718884331756, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884331766 XXXX 1718884331766, Thread 41426: XXXX 1718884331766, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884331766 XXXX 1718884331766, Thread 41426: XXXX 1718884331766, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331769 XXXX 1718884331769, Thread 41426: XXXX 1718884331769, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331769 XXXX 1718884331769, Thread 41426: XXXX 1718884331769, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331772 XXXX 1718884331772, Thread 41426: XXXX 1718884331772, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331772 XXXX 1718884331772, Thread 41426: XXXX 1718884331772, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331775 XXXX 1718884331775, Thread 41426: XXXX 1718884331775, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331775 XXXX 1718884331775, Thread 41426: XXXX 1718884331775, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331778 XXXX 1718884331778, Thread 41426: XXXX 1718884331778, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331781 XXXX 1718884331781, Thread 41426: XXXX 1718884331781, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331781 XXXX 1718884331781, Thread 41426: XXXX 1718884331781, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331783 XXXX 1718884331783, Thread 41426: XXXX 1718884331783, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331783 XXXX 1718884331783, Thread 41426: XXXX 1718884331783, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331786 XXXX 1718884331786, Thread 41426: XXXX 1718884331786, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331786 XXXX 1718884331786, Thread 41426: XXXX 1718884331786, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331788 XXXX 1718884331788, Thread 41426: XXXX 1718884331788, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331788 XXXX 1718884331788, Thread 41426: XXXX 1718884331788, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331788 XXXX 1718884331788, Thread 41426: XXXX 1718884331788, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884331788 XXXX 1718884331788, Thread 41426: XXXX 1718884331788, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884331799 XXXX 1718884331799, Thread 41426: XXXX 1718884331799, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331799 XXXX 1718884331799, Thread 41426: XXXX 1718884331799, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331799 XXXX 1718884331799, Thread 41426: XXXX 1718884331799, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331799 XXXX 1718884331799, Thread 41426: XXXX 1718884331799, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331801 XXXX 1718884331801, Thread 41426: XXXX 1718884331801, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331801 XXXX 1718884331801, Thread 41426: XXXX 1718884331801, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331801 XXXX 1718884331801, Thread 41426: XXXX 1718884331801, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331801 XXXX 1718884331801, Thread 41426: XXXX 1718884331801, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331803 XXXX 1718884331803, Thread 41426: XXXX 1718884331803, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331803 XXXX 1718884331803, Thread 41426: XXXX 1718884331803, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331803 XXXX 1718884331803, Thread 41426: XXXX 1718884331803, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884331814 XXXX 1718884331814, Thread 41426: XXXX 1718884331814, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884331814 XXXX 1718884331814, Thread 41426: XXXX 1718884331814, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331817 XXXX 1718884331817, Thread 41426: XXXX 1718884331817, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331817 XXXX 1718884331817, Thread 41426: XXXX 1718884331817, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331820 XXXX 1718884331820, Thread 41426: XXXX 1718884331820, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331820 XXXX 1718884331820, Thread 41426: XXXX 1718884331820, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331823 XXXX 1718884331823, Thread 41426: XXXX 1718884331823, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331823 XXXX 1718884331823, Thread 41426: XXXX 1718884331823, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331826 XXXX 1718884331826, Thread 41426: XXXX 1718884331826, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331828 XXXX 1718884331828, Thread 41426: XXXX 1718884331828, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331828 XXXX 1718884331828, Thread 41426: XXXX 1718884331828, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331829 XXXX 1718884331829, Thread 41426: XXXX 1718884331829, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331829 XXXX 1718884331829, Thread 41426: XXXX 1718884331829, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331831 XXXX 1718884331831, Thread 41426: XXXX 1718884331831, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331831 XXXX 1718884331831, Thread 41426: XXXX 1718884331831, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331832 XXXX 1718884331832, Thread 41426: XXXX 1718884331832, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331832 XXXX 1718884331832, Thread 41426: XXXX 1718884331832, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331834 XXXX 1718884331834, Thread 41426: XXXX 1718884331834, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331834 XXXX 1718884331834, Thread 41426: XXXX 1718884331834, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331835 XXXX 1718884331835, Thread 41426: XXXX 1718884331835, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331835 XXXX 1718884331835, Thread 41426: XXXX 1718884331835, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331835 XXXX 1718884331835, Thread 41426: XXXX 1718884331835, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884331835 XXXX 1718884331835, Thread 41426: XXXX 1718884331835, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884331847 XXXX 1718884331847, Thread 41426: XXXX 1718884331847, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331847 XXXX 1718884331847, Thread 41426: XXXX 1718884331847, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331847 XXXX 1718884331847, Thread 41426: XXXX 1718884331847, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331847 XXXX 1718884331847, Thread 41426: XXXX 1718884331847, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331849 XXXX 1718884331849, Thread 41426: XXXX 1718884331849, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331849 XXXX 1718884331849, Thread 41426: XXXX 1718884331849, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331849 XXXX 1718884331849, Thread 41426: XXXX 1718884331849, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331849 XXXX 1718884331849, Thread 41426: XXXX 1718884331849, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331850 XXXX 1718884331850, Thread 41426: XXXX 1718884331850, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331850 XXXX 1718884331850, Thread 41426: XXXX 1718884331850, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331851 XXXX 1718884331851, Thread 41426: XXXX 1718884331851, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884331862 XXXX 1718884331862, Thread 41426: XXXX 1718884331862, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884331862 XXXX 1718884331862, Thread 41426: XXXX 1718884331862, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331865 XXXX 1718884331865, Thread 41426: XXXX 1718884331865, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331865 XXXX 1718884331865, Thread 41426: XXXX 1718884331865, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331868 XXXX 1718884331868, Thread 41426: XXXX 1718884331868, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331868 XXXX 1718884331868, Thread 41426: XXXX 1718884331868, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331871 XXXX 1718884331871, Thread 41426: XXXX 1718884331871, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331871 XXXX 1718884331871, Thread 41426: XXXX 1718884331871, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331874 XXXX 1718884331874, Thread 41426: XXXX 1718884331874, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331876 XXXX 1718884331876, Thread 41426: XXXX 1718884331876, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331876 XXXX 1718884331876, Thread 41426: XXXX 1718884331876, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331878 XXXX 1718884331878, Thread 41426: XXXX 1718884331878, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331878 XXXX 1718884331878, Thread 41426: XXXX 1718884331878, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331880 XXXX 1718884331880, Thread 41426: XXXX 1718884331880, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331880 XXXX 1718884331880, Thread 41426: XXXX 1718884331880, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331882 XXXX 1718884331882, Thread 41426: XXXX 1718884331882, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331882 XXXX 1718884331882, Thread 41426: XXXX 1718884331882, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331882 XXXX 1718884331882, Thread 41426: XXXX 1718884331882, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884331882 XXXX 1718884331882, Thread 41426: XXXX 1718884331882, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884331893 XXXX 1718884331893, Thread 41426: XXXX 1718884331893, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331893 XXXX 1718884331893, Thread 41426: XXXX 1718884331893, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331893 XXXX 1718884331893, Thread 41426: XXXX 1718884331893, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331893 XXXX 1718884331893, Thread 41426: XXXX 1718884331893, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331895 XXXX 1718884331895, Thread 41426: XXXX 1718884331895, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331895 XXXX 1718884331895, Thread 41426: XXXX 1718884331895, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331895 XXXX 1718884331895, Thread 41426: XXXX 1718884331895, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331895 XXXX 1718884331895, Thread 41426: XXXX 1718884331895, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331897 XXXX 1718884331897, Thread 41426: XXXX 1718884331897, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331897 XXXX 1718884331897, Thread 41426: XXXX 1718884331897, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331897 XXXX 1718884331897, Thread 41426: XXXX 1718884331897, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884331908 XXXX 1718884331908, Thread 41426: XXXX 1718884331908, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884331908 XXXX 1718884331908, Thread 41426: XXXX 1718884331908, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331911 XXXX 1718884331911, Thread 41426: XXXX 1718884331911, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331911 XXXX 1718884331911, Thread 41426: XXXX 1718884331911, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331914 XXXX 1718884331914, Thread 41426: XXXX 1718884331914, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331914 XXXX 1718884331914, Thread 41426: XXXX 1718884331914, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331917 XXXX 1718884331917, Thread 41426: XXXX 1718884331917, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331917 XXXX 1718884331917, Thread 41426: XXXX 1718884331917, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331920 XXXX 1718884331920, Thread 41426: XXXX 1718884331920, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331922 XXXX 1718884331922, Thread 41426: XXXX 1718884331922, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331922 XXXX 1718884331922, Thread 41426: XXXX 1718884331922, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331924 XXXX 1718884331924, Thread 41426: XXXX 1718884331924, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331924 XXXX 1718884331924, Thread 41426: XXXX 1718884331924, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331926 XXXX 1718884331926, Thread 41426: XXXX 1718884331926, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331926 XXXX 1718884331926, Thread 41426: XXXX 1718884331926, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331928 XXXX 1718884331928, Thread 41426: XXXX 1718884331928, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331928 XXXX 1718884331928, Thread 41426: XXXX 1718884331928, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331928 XXXX 1718884331928, Thread 41426: XXXX 1718884331928, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884331928 XXXX 1718884331928, Thread 41426: XXXX 1718884331928, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884331939 XXXX 1718884331939, Thread 41426: XXXX 1718884331939, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331939 XXXX 1718884331939, Thread 41426: XXXX 1718884331939, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331939 XXXX 1718884331939, Thread 41426: XXXX 1718884331939, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331939 XXXX 1718884331939, Thread 41426: XXXX 1718884331939, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331941 XXXX 1718884331941, Thread 41426: XXXX 1718884331941, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331941 XXXX 1718884331941, Thread 41426: XXXX 1718884331941, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331941 XXXX 1718884331941, Thread 41426: XXXX 1718884331941, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331941 XXXX 1718884331941, Thread 41426: XXXX 1718884331941, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331943 XXXX 1718884331943, Thread 41426: XXXX 1718884331943, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331943 XXXX 1718884331943, Thread 41426: XXXX 1718884331943, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331943 XXXX 1718884331943, Thread 41426: XXXX 1718884331943, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884331954 XXXX 1718884331954, Thread 41426: XXXX 1718884331954, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884331954 XXXX 1718884331954, Thread 41426: XXXX 1718884331954, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331957 XXXX 1718884331957, Thread 41426: XXXX 1718884331957, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331957 XXXX 1718884331957, Thread 41426: XXXX 1718884331957, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331960 XXXX 1718884331960, Thread 41426: XXXX 1718884331960, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331960 XXXX 1718884331960, Thread 41426: XXXX 1718884331960, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331963 XXXX 1718884331963, Thread 41426: XXXX 1718884331963, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331963 XXXX 1718884331963, Thread 41426: XXXX 1718884331963, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884331966 XXXX 1718884331966, Thread 41426: XXXX 1718884331966, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884331968 XXXX 1718884331968, Thread 41426: XXXX 1718884331968, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331968 XXXX 1718884331968, Thread 41426: XXXX 1718884331968, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331970 XXXX 1718884331970, Thread 41426: XXXX 1718884331970, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331970 XXXX 1718884331970, Thread 41426: XXXX 1718884331970, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331972 XXXX 1718884331972, Thread 41426: XXXX 1718884331972, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331972 XXXX 1718884331972, Thread 41426: XXXX 1718884331972, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331975 XXXX 1718884331975, Thread 41426: XXXX 1718884331975, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331975 XXXX 1718884331975, Thread 41426: XXXX 1718884331975, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331975 XXXX 1718884331975, Thread 41426: XXXX 1718884331975, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884331975 XXXX 1718884331975, Thread 41426: XXXX 1718884331975, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884331986 XXXX 1718884331986, Thread 41426: XXXX 1718884331986, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331986 XXXX 1718884331986, Thread 41426: XXXX 1718884331986, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331986 XXXX 1718884331986, Thread 41426: XXXX 1718884331986, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331986 XXXX 1718884331986, Thread 41426: XXXX 1718884331986, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331988 XXXX 1718884331988, Thread 41426: XXXX 1718884331988, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331988 XXXX 1718884331988, Thread 41426: XXXX 1718884331988, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331988 XXXX 1718884331988, Thread 41426: XXXX 1718884331988, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884331988 XXXX 1718884331988, Thread 41426: XXXX 1718884331988, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884331990 XXXX 1718884331990, Thread 41426: XXXX 1718884331990, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884331990 XXXX 1718884331990, Thread 41426: XXXX 1718884331990, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884331990 XXXX 1718884331990, Thread 41426: XXXX 1718884331990, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884332000 XXXX 1718884332000, Thread 41426: XXXX 1718884332000, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884332000 XXXX 1718884332000, Thread 41426: XXXX 1718884332000, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332003 XXXX 1718884332003, Thread 41426: XXXX 1718884332003, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332003 XXXX 1718884332003, Thread 41426: XXXX 1718884332003, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332006 XXXX 1718884332006, Thread 41426: XXXX 1718884332006, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332006 XXXX 1718884332006, Thread 41426: XXXX 1718884332006, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332009 XXXX 1718884332009, Thread 41426: XXXX 1718884332009, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332009 XXXX 1718884332009, Thread 41426: XXXX 1718884332009, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332012 XXXX 1718884332012, Thread 41426: XXXX 1718884332012, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332013 XXXX 1718884332013, Thread 41426: XXXX 1718884332013, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332013 XXXX 1718884332013, Thread 41426: XXXX 1718884332013, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332014 XXXX 1718884332014, Thread 41426: XXXX 1718884332014, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332014 XXXX 1718884332014, Thread 41426: XXXX 1718884332014, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332016 XXXX 1718884332016, Thread 41426: XXXX 1718884332016, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332016 XXXX 1718884332016, Thread 41426: XXXX 1718884332016, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332017 XXXX 1718884332017, Thread 41426: XXXX 1718884332017, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332017 XXXX 1718884332017, Thread 41426: XXXX 1718884332017, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332019 XXXX 1718884332019, Thread 41426: XXXX 1718884332019, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332019 XXXX 1718884332019, Thread 41426: XXXX 1718884332019, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332020 XXXX 1718884332020, Thread 41426: XXXX 1718884332020, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332020 XXXX 1718884332020, Thread 41426: XXXX 1718884332020, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332020 XXXX 1718884332020, Thread 41426: XXXX 1718884332020, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884332020 XXXX 1718884332020, Thread 41426: XXXX 1718884332020, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884332031 XXXX 1718884332031, Thread 41426: XXXX 1718884332031, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332031 XXXX 1718884332031, Thread 41426: XXXX 1718884332031, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332032 XXXX 1718884332032, Thread 41426: XXXX 1718884332032, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332032 XXXX 1718884332032, Thread 41426: XXXX 1718884332032, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332033 XXXX 1718884332033, Thread 41426: XXXX 1718884332033, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332033 XXXX 1718884332033, Thread 41426: XXXX 1718884332033, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332033 XXXX 1718884332033, Thread 41426: XXXX 1718884332033, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332033 XXXX 1718884332033, Thread 41426: XXXX 1718884332033, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332035 XXXX 1718884332035, Thread 41426: XXXX 1718884332035, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332035 XXXX 1718884332035, Thread 41426: XXXX 1718884332035, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332036 XXXX 1718884332036, Thread 41426: XXXX 1718884332036, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884332046 XXXX 1718884332046, Thread 41426: XXXX 1718884332046, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884332046 XXXX 1718884332046, Thread 41426: XXXX 1718884332046, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332050 XXXX 1718884332050, Thread 41426: XXXX 1718884332050, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332050 XXXX 1718884332050, Thread 41426: XXXX 1718884332050, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332053 XXXX 1718884332053, Thread 41426: XXXX 1718884332053, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332053 XXXX 1718884332053, Thread 41426: XXXX 1718884332053, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332056 XXXX 1718884332056, Thread 41426: XXXX 1718884332056, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332056 XXXX 1718884332056, Thread 41426: XXXX 1718884332056, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332059 XXXX 1718884332059, Thread 41426: XXXX 1718884332059, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332060 XXXX 1718884332060, Thread 41426: XXXX 1718884332060, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332060 XXXX 1718884332060, Thread 41426: XXXX 1718884332060, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332062 XXXX 1718884332062, Thread 41426: XXXX 1718884332062, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332062 XXXX 1718884332062, Thread 41426: XXXX 1718884332062, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332063 XXXX 1718884332063, Thread 41426: XXXX 1718884332063, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332063 XXXX 1718884332063, Thread 41426: XXXX 1718884332063, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332064 XXXX 1718884332064, Thread 41426: XXXX 1718884332064, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332064 XXXX 1718884332064, Thread 41426: XXXX 1718884332064, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332066 XXXX 1718884332066, Thread 41426: XXXX 1718884332066, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332066 XXXX 1718884332066, Thread 41426: XXXX 1718884332066, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332068 XXXX 1718884332068, Thread 41426: XXXX 1718884332068, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332068 XXXX 1718884332068, Thread 41426: XXXX 1718884332068, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332068 XXXX 1718884332068, Thread 41426: XXXX 1718884332068, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884332068 XXXX 1718884332068, Thread 41426: XXXX 1718884332068, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884332079 XXXX 1718884332079, Thread 41426: XXXX 1718884332079, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332079 XXXX 1718884332079, Thread 41426: XXXX 1718884332079, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332079 XXXX 1718884332079, Thread 41426: XXXX 1718884332079, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332079 XXXX 1718884332079, Thread 41426: XXXX 1718884332079, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332081 XXXX 1718884332081, Thread 41426: XXXX 1718884332081, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332081 XXXX 1718884332081, Thread 41426: XXXX 1718884332081, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332081 XXXX 1718884332081, Thread 41426: XXXX 1718884332081, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332081 XXXX 1718884332081, Thread 41426: XXXX 1718884332081, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332083 XXXX 1718884332083, Thread 41426: XXXX 1718884332083, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332083 XXXX 1718884332083, Thread 41426: XXXX 1718884332083, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332083 XXXX 1718884332083, Thread 41426: XXXX 1718884332083, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884332094 XXXX 1718884332094, Thread 41426: XXXX 1718884332094, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884332094 XXXX 1718884332094, Thread 41426: XXXX 1718884332094, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332097 XXXX 1718884332097, Thread 41426: XXXX 1718884332097, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332097 XXXX 1718884332097, Thread 41426: XXXX 1718884332097, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332100 XXXX 1718884332100, Thread 41426: XXXX 1718884332100, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332100 XXXX 1718884332100, Thread 41426: XXXX 1718884332100, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332103 XXXX 1718884332103, Thread 41426: XXXX 1718884332103, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332103 XXXX 1718884332103, Thread 41426: XXXX 1718884332103, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu32  
+41426 1718884332106 XXXX 1718884332106, Thread 41426: XXXX 1718884332106, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu32)  
+41426 1718884332107 XXXX 1718884332107, Thread 41426: XXXX 1718884332107, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332107 XXXX 1718884332107, Thread 41426: XXXX 1718884332107, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332109 XXXX 1718884332109, Thread 41426: XXXX 1718884332109, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332109 XXXX 1718884332109, Thread 41426: XXXX 1718884332109, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332110 XXXX 1718884332110, Thread 41426: XXXX 1718884332110, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332110 XXXX 1718884332110, Thread 41426: XXXX 1718884332110, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332112 XXXX 1718884332112, Thread 41426: XXXX 1718884332112, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332112 XXXX 1718884332112, Thread 41426: XXXX 1718884332112, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332113 XXXX 1718884332113, Thread 41426: XXXX 1718884332113, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332113 XXXX 1718884332113, Thread 41426: XXXX 1718884332113, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332116 XXXX 1718884332116, Thread 41426: XXXX 1718884332116, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332116 XXXX 1718884332116, Thread 41426: XXXX 1718884332116, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332116 XXXX 1718884332116, Thread 41426: XXXX 1718884332116, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu  
+41426 1718884332116 XXXX 1718884332116, Thread 41426: XXXX 1718884332116, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x24 bytes long, transferDataLength is 0x400 bytes long  
+41426 1718884332127 XXXX 1718884332127, Thread 41426: XXXX 1718884332127, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332127 XXXX 1718884332127, Thread 41426: XXXX 1718884332127, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332127 XXXX 1718884332127, Thread 41426: XXXX 1718884332127, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332127 XXXX 1718884332127, Thread 41426: XXXX 1718884332127, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332129 XXXX 1718884332129, Thread 41426: XXXX 1718884332129, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332129 XXXX 1718884332129, Thread 41426: XXXX 1718884332129, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332129 XXXX 1718884332129, Thread 41426: XXXX 1718884332129, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332129 XXXX 1718884332129, Thread 41426: XXXX 1718884332129, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332131 XXXX 1718884332131, Thread 41426: XXXX 1718884332131, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332131 XXXX 1718884332131, Thread 41426: XXXX 1718884332131, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332131 XXXX 1718884332131, Thread 41426: XXXX 1718884332131, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884332142 XXXX 1718884332142, Thread 41426: XXXX 1718884332142, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884332142 ExecuteFunCall.call prog_write
+41426 1718884332142 XXXX 1718884332142, Thread 41426: XXXX 1718884332142, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884332146 XXXX 1718884332146, Thread 41426: XXXX 1718884332146, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884332146 ExecuteFunCall.call prog_write
+41426 1718884332146 XXXX 1718884332146, Thread 41426: XXXX 1718884332146, Entering Thread 41426: Commands::runScriptWithDownload, script name = WriteEmu  
+41426 1718884332151 XXXX 1718884332151, Thread 41426: XXXX 1718884332151, Exiting Thread 41426: Commands::runScriptWithDownload(WriteEmu)  
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Post:SendOperation
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Return Value
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 None
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Return End
+
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Pre:endOfOperations
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Payload
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 null
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Payload End
+41426 1718884332151 ExecuteFunCall.call end_of_operations
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Post:endOfOperations
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Return Value
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 None
+41426 1718884332151 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Return End
+41426 1718884332152 ExecuteFunCall.call on_program_done
+
+41426 1718884332153 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Pre:SendOperation
+41426 1718884332153 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Payload
+41426 1718884332153 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 OperationInfo: Values:
+41426 1718884332153 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 OperationInfo: Type = releasefromreset, Mask = 00000000, Erase = false, Production Mode = true
+41426 1718884332153 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Payload End
+41426 1718884332153 ExecuteFunCall.call release_from_reset
+41426 1718884332153 XXXX 1718884332153, Thread 41426: XXXX 1718884332153, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332153 XXXX 1718884332153, Thread 41426: XXXX 1718884332153, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332155 XXXX 1718884332155, Thread 41426: XXXX 1718884332155, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332155 XXXX 1718884332155, Thread 41426: XXXX 1718884332155, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332155 XXXX 1718884332155, Thread 41426: XXXX 1718884332155, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332155 XXXX 1718884332155, Thread 41426: XXXX 1718884332155, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332157 XXXX 1718884332157, Thread 41426: XXXX 1718884332157, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332157 XXXX 1718884332157, Thread 41426: XXXX 1718884332157, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332157 XXXX 1718884332157, Thread 41426: XXXX 1718884332157, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332157 XXXX 1718884332157, Thread 41426: XXXX 1718884332157, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332159 XXXX 1718884332159, Thread 41426: XXXX 1718884332159, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332159 XXXX 1718884332159, Thread 41426: XXXX 1718884332159, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332160 XXXX 1718884332160, Thread 41426: XXXX 1718884332160, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332160 XXXX 1718884332160, Thread 41426: XXXX 1718884332160, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332162 XXXX 1718884332162, Thread 41426: XXXX 1718884332162, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332162 XXXX 1718884332162, Thread 41426: XXXX 1718884332162, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332162 XXXX 1718884332162, Thread 41426: XXXX 1718884332162, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332162 XXXX 1718884332162, Thread 41426: XXXX 1718884332162, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332164 XXXX 1718884332164, Thread 41426: XXXX 1718884332164, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332164 XXXX 1718884332164, Thread 41426: XXXX 1718884332164, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332164 XXXX 1718884332164, Thread 41426: XXXX 1718884332164, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332164 XXXX 1718884332164, Thread 41426: XXXX 1718884332164, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332166 XXXX 1718884332166, Thread 41426: XXXX 1718884332166, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332166 XXXX 1718884332166, Thread 41426: XXXX 1718884332166, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332166 XXXX 1718884332166, Thread 41426: XXXX 1718884332166, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332166 XXXX 1718884332166, Thread 41426: XXXX 1718884332166, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332169 XXXX 1718884332169, Thread 41426: XXXX 1718884332169, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332169 XXXX 1718884332169, Thread 41426: XXXX 1718884332169, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332169 XXXX 1718884332169, Thread 41426: XXXX 1718884332169, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332169 XXXX 1718884332169, Thread 41426: XXXX 1718884332169, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332171 XXXX 1718884332171, Thread 41426: XXXX 1718884332171, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332171 XXXX 1718884332171, Thread 41426: XXXX 1718884332171, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332171 XXXX 1718884332171, Thread 41426: XXXX 1718884332171, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332171 XXXX 1718884332171, Thread 41426: XXXX 1718884332171, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332173 XXXX 1718884332173, Thread 41426: XXXX 1718884332173, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332173 XXXX 1718884332173, Thread 41426: XXXX 1718884332173, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332173 XXXX 1718884332173, Thread 41426: XXXX 1718884332173, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332173 XXXX 1718884332173, Thread 41426: XXXX 1718884332173, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332175 XXXX 1718884332175, Thread 41426: XXXX 1718884332175, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332175 XXXX 1718884332175, Thread 41426: XXXX 1718884332175, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332175 XXXX 1718884332175, Thread 41426: XXXX 1718884332175, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332175 XXXX 1718884332175, Thread 41426: XXXX 1718884332175, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332177 XXXX 1718884332177, Thread 41426: XXXX 1718884332177, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332177 XXXX 1718884332177, Thread 41426: XXXX 1718884332177, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332177 XXXX 1718884332177, Thread 41426: XXXX 1718884332177, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332177 XXXX 1718884332177, Thread 41426: XXXX 1718884332177, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332179 XXXX 1718884332179, Thread 41426: XXXX 1718884332179, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332179 XXXX 1718884332179, Thread 41426: XXXX 1718884332179, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332179 XXXX 1718884332179, Thread 41426: XXXX 1718884332179, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332179 XXXX 1718884332179, Thread 41426: XXXX 1718884332179, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332181 XXXX 1718884332181, Thread 41426: XXXX 1718884332181, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332181 XXXX 1718884332181, Thread 41426: XXXX 1718884332181, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332181 XXXX 1718884332181, Thread 41426: XXXX 1718884332181, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332181 XXXX 1718884332181, Thread 41426: XXXX 1718884332181, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332183 XXXX 1718884332183, Thread 41426: XXXX 1718884332183, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332183 XXXX 1718884332183, Thread 41426: XXXX 1718884332183, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332183 XXXX 1718884332183, Thread 41426: XXXX 1718884332183, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332183 XXXX 1718884332183, Thread 41426: XXXX 1718884332183, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332185 XXXX 1718884332185, Thread 41426: XXXX 1718884332185, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332185 XXXX 1718884332185, Thread 41426: XXXX 1718884332185, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332185 XXXX 1718884332185, Thread 41426: XXXX 1718884332185, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332185 XXXX 1718884332185, Thread 41426: XXXX 1718884332185, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332187 XXXX 1718884332187, Thread 41426: XXXX 1718884332187, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332187 XXXX 1718884332187, Thread 41426: XXXX 1718884332187, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332187 XXXX 1718884332187, Thread 41426: XXXX 1718884332187, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332187 XXXX 1718884332187, Thread 41426: XXXX 1718884332187, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332189 XXXX 1718884332189, Thread 41426: XXXX 1718884332189, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332189 XXXX 1718884332189, Thread 41426: XXXX 1718884332189, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332189 XXXX 1718884332189, Thread 41426: XXXX 1718884332189, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332189 XXXX 1718884332189, Thread 41426: XXXX 1718884332189, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332191 XXXX 1718884332191, Thread 41426: XXXX 1718884332191, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332191 XXXX 1718884332191, Thread 41426: XXXX 1718884332191, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332191 XXXX 1718884332191, Thread 41426: XXXX 1718884332191, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332191 XXXX 1718884332191, Thread 41426: XXXX 1718884332191, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332193 XXXX 1718884332193, Thread 41426: XXXX 1718884332193, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332193 XXXX 1718884332193, Thread 41426: XXXX 1718884332193, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332193 XXXX 1718884332193, Thread 41426: XXXX 1718884332193, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332193 XXXX 1718884332193, Thread 41426: XXXX 1718884332193, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332195 XXXX 1718884332195, Thread 41426: XXXX 1718884332195, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332195 XXXX 1718884332195, Thread 41426: XXXX 1718884332195, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332195 XXXX 1718884332195, Thread 41426: XXXX 1718884332195, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332195 XXXX 1718884332195, Thread 41426: XXXX 1718884332195, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332196 XXXX 1718884332196, Thread 41426: XXXX 1718884332196, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332196 XXXX 1718884332196, Thread 41426: XXXX 1718884332196, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332196 XXXX 1718884332196, Thread 41426: XXXX 1718884332196, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332196 XXXX 1718884332196, Thread 41426: XXXX 1718884332196, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332198 XXXX 1718884332198, Thread 41426: XXXX 1718884332198, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332198 XXXX 1718884332198, Thread 41426: XXXX 1718884332198, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332198 XXXX 1718884332198, Thread 41426: XXXX 1718884332198, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332198 XXXX 1718884332198, Thread 41426: XXXX 1718884332198, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332201 XXXX 1718884332201, Thread 41426: XXXX 1718884332201, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332201 XXXX 1718884332201, Thread 41426: XXXX 1718884332201, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332201 XXXX 1718884332201, Thread 41426: XXXX 1718884332201, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332201 XXXX 1718884332201, Thread 41426: XXXX 1718884332201, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332202 XXXX 1718884332202, Thread 41426: XXXX 1718884332202, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332202 XXXX 1718884332202, Thread 41426: XXXX 1718884332202, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332202 XXXX 1718884332202, Thread 41426: XXXX 1718884332202, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332202 XXXX 1718884332202, Thread 41426: XXXX 1718884332202, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332205 XXXX 1718884332205, Thread 41426: XXXX 1718884332205, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332205 XXXX 1718884332205, Thread 41426: XXXX 1718884332205, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332205 XXXX 1718884332205, Thread 41426: XXXX 1718884332205, Entering Thread 41426: Commands::runScriptWithUpload, script name = GetCoreRegsRange  
+41426 1718884332205 XXXX 1718884332205, Thread 41426: XXXX 1718884332205, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x45 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332207 XXXX 1718884332207, Thread 41426: XXXX 1718884332207, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332207 XXXX 1718884332207, Thread 41426: XXXX 1718884332207, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332207 XXXX 1718884332207, Thread 41426: XXXX 1718884332207, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332207 XXXX 1718884332207, Thread 41426: XXXX 1718884332207, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332209 XXXX 1718884332209, Thread 41426: XXXX 1718884332209, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332209 XXXX 1718884332209, Thread 41426: XXXX 1718884332209, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332209 XXXX 1718884332209, Thread 41426: XXXX 1718884332209, Entering Thread 41426: Commands::runScriptWithUpload, script name = ReadEmu32  
+41426 1718884332209 XXXX 1718884332209, Thread 41426: XXXX 1718884332209, Entering Thread 41426: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+41426 1718884332210 XXXX 1718884332210, Thread 41426: XXXX 1718884332210, Exiting Thread 41426: ToolCommUsb::readTransfer,  cr.status = 0x0  
+41426 1718884332210 XXXX 1718884332210, Thread 41426: XXXX 1718884332210, Exiting Thread 41426: Commands::runScriptWithUpload  
+41426 1718884332210 XXXX 1718884332210, Thread 41426: XXXX 1718884332210, Entering Thread 41426: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+41426 1718884332213 XXXX 1718884332213, Thread 41426: XXXX 1718884332213, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332213 XXXX 1718884332213, Thread 41426: XXXX 1718884332213, Entering Thread 41426: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+41426 1718884332215 XXXX 1718884332215, Thread 41426: XXXX 1718884332215, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Post:SendOperation
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Return Value
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 None
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_PIC32CM5112GC00100 Return End
+41426 1718884332215 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is null
+
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Pre:GetFirmwareInfo
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 null
+41426 1718884332215 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload End
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Post:GetFirmwareInfo
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return Value
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 FirmwareInfo: Values:
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 FirmwareInfo: boot = false, bootVer = 01.01.41, apVer = 00.07.43, fpgaVer = ff.ff.ff, scriptVer = 00.07.44, macAddress = 0505083705471804957485054485348, devID = a1020e01, devID1 = 1, devSN0 = ffffffff, devSN1 = ffffffff, serialNumber = AZP010000018, appCommitID = null, scriptCommitID = 75e8df09c7, PCB_ID = 80000000
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return End
+
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Pre:SetPowerInfo
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 PowerInfo: Values:
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 PowerInfo: shotDownSystem = false, isToolPower = false, voltage = 3.300000, useVppFirst = false, useLowVoltageProgramming = true, useMaintainActivePower = false
+41426 1718884332224 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload End
+41426 1718884332224 XXXX 1718884332224, Thread 41426: XXXX 1718884332224, Entering Thread 41426: Commands::runScriptBasic with script contents. contents[0] = 0x39, ...  
+41426 1718884332225 XXXX 1718884332225, Thread 41426: XXXX 1718884332225, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332225 XXXX 1718884332225, Thread 41426: XXXX 1718884332225, Entering Thread 41426: Commands::runScriptBasic with script contents. contents[0] = 0x46, ...  
+41426 1718884332226 XXXX 1718884332226, Thread 41426: XXXX 1718884332226, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332226 XXXX 1718884332226, Thread 41426: XXXX 1718884332226, Entering Thread 41426: Commands::runScriptBasic with script contents. contents[0] = 0x44, ...  
+41426 1718884332227 XXXX 1718884332227, Thread 41426: XXXX 1718884332227, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332227 XXXX 1718884332227, Thread 41426: XXXX 1718884332227, Entering Thread 41426: Commands::runScriptBasic with script contents. contents[0] = 0xef, ...  
+41426 1718884332228 XXXX 1718884332228, Thread 41426: XXXX 1718884332228, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332228 XXXX 1718884332228, Thread 41426: XXXX 1718884332228, Entering Thread 41426: Commands::runScriptBasic with script contents. contents[0] = 0x40, ...  
+41426 1718884332229 XXXX 1718884332229, Thread 41426: XXXX 1718884332229, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332229 XXXX 1718884332229, Thread 41426: XXXX 1718884332229, Entering Thread 41426: Commands::runScriptBasic with script contents. contents[0] = 0x47, ...  
+41426 1718884332230 XXXX 1718884332230, Thread 41426: XXXX 1718884332230, Exiting Thread 41426: Commands::runScriptBasic  
+41426 1718884332230 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Post:SetPowerInfo
+41426 1718884332230 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return Value
+41426 1718884332230 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 none
+41426 1718884332230 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return End
+41426 1718884332230 GEN4_CONNECT_DIAGNOSTICS:Removing plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@7d59b368
+41426 1718884332230 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+41426 1718884332230 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+41426 1718884332280 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.Disconnect
+41426 1718884332280 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Detach to remove tool from plug and play list
+41426 1718884332280 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.DisconnectFromMPlabComm
+41426 1718884332280 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Disconnect
+44566 1718888456484 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
+44566 1718888456484 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 810b, AttachedToolVID = 4d8
+44566 1718888456484 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
+44566 1718888456484 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 810b, AttachedToolVID = 4d8
+44566 1718888456491 com.microchip.mplab.mdbcore.RealICETool.RIDbgToolCom
+44566 1718888456491 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
+44566 1718888456491 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
+44566 1718888456491 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@48f987b8
+44566 1718888456491 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+44566 1718888456491 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@48f987b8
+44566 1718888456491 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+44566 1718888456491 GEN4_CONNECT_DIAGNOSTICS:Registering for alternate PNP notifications. CommPnPCriteria.cPIDList = [810A, 8109, 2184], CommPnPCriteria.cSerialNumber = dse010000068
+
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Pre:init
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: Values:
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: pcAddress = 7fffffffffffffff, Vpp = 3.30, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0.00, deviceName = PIC32CM5112GC00100, programmerType = EFC_6450
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: MemInfo values:
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = ffffffff, exists = true, startAddr = 08000000, endAddr = 2001ffff, rowSize = 1000, rowEraseSize = 1000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = ffffffff, exists = true, startAddr = 0a000800, endAddr = 0a003fff, rowSize = 0100, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = true, startAddr = 00000000, endAddr = 00000000, rowSize = 1000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = ffffffff, exists = true, startAddr = 0a001000, endAddr = 0a001fff, rowSize = 0001, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 1000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = ffffffff, exists = true, startAddr = 44000000, endAddr = e000efff, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 7fffffff, exists = true, startAddr = 44000120, endAddr = 44000123, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 CfgRequiredBitsMask Values:
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000800, Mask = 0000075e
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000810, Mask = 0000007f
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000814, Mask = 0000007f
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000818, Mask = 00003bff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00081c, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000820, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000830, Mask = 00ff00ff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000834, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000838, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000848, Mask = 00ff00ff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00084c, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000850, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000860, Mask = 00ff00ff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000864, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000868, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00086c, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000870, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000874, Mask = ffff0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000878, Mask = ffff0000
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00087c, Mask = 003d003d
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000880, Mask = 003d003d
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000884, Mask = 0000ff70
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000888, Mask = 00000407
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000890, Mask = 00000007
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000894, Mask = 0000000f
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a000898, Mask = 000fffc6
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002800, Mask = 0000075e
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002810, Mask = 0000007f
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002814, Mask = 0000007f
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002818, Mask = 00003bff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00281c, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002820, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002830, Mask = 00ff00ff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002834, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002838, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002848, Mask = 00ff00ff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00284c, Mask = ffffffff
+44566 1718888456586 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002850, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002860, Mask = 00ff00ff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002864, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002868, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00286c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002870, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002874, Mask = ffff0000
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002878, Mask = ffff0000
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00287c, Mask = 003d003d
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002880, Mask = 003d003d
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002884, Mask = 0000ff70
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002888, Mask = 00000407
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002890, Mask = 00000007
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002894, Mask = 0000000f
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a002898, Mask = 000fffc6
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003000, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003400, Mask = 00000001
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003408, Mask = 0000003c
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003420, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003424, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003428, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00342c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003430, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003434, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003438, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00343c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003440, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003444, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003448, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00344c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003450, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003454, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003458, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00345c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003460, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003464, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003468, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00346c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003470, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003474, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003478, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00347c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003480, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003484, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003488, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00348c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003490, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003494, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003498, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00349c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034a0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034a4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034a8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034ac, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034b0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034b4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034b8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034bc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034c0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034c4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034c8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034cc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034d0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034d4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034d8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034dc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034e0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034e4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034e8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034ec, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034f0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034f4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034f8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a0034fc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003500, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003504, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003508, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00350c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003510, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003514, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003518, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00351c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003520, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003524, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003528, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00352c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003530, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003534, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003538, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00353c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003540, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003544, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003548, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00354c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003550, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003554, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003558, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a00355c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c00, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c04, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c08, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c0c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c10, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c14, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c18, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c1c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c20, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c24, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c28, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c2c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c30, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c34, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c38, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c3c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c40, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c44, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c48, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c4c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c50, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c54, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c58, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c5c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c60, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c64, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c68, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c6c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c70, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c74, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c78, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c7c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c80, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c84, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c88, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c8c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c90, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c94, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c98, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003c9c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ca0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ca4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ca8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cac, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cb0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cb4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cb8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cbc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cc0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cc4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cc8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ccc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cd0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cd4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cd8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cdc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ce0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ce4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ce8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cec, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cf0, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cf4, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cf8, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003cfc, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d00, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d04, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d08, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d0c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d10, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d14, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d18, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d1c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d20, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d24, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d28, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d2c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d30, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d34, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d38, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d3c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d40, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d44, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d48, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d4c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d50, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d54, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d58, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d5c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d60, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d64, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d68, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d6c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d70, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d74, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d78, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d7c, Mask = ffffffff
+44566 1718888456587 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d80, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d84, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d88, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d8c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d90, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d94, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d98, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003d9c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003da0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003da4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003da8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dac, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003db0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003db4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003db8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dbc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dc0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dc4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dc8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dcc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dd0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dd4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dd8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ddc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003de0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003de4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003de8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dec, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003df0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003df4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003df8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003dfc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e00, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e04, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e08, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e0c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e10, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e14, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e18, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e1c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e20, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e24, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e28, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e2c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e30, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e34, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e38, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e3c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e40, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e44, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e48, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e4c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e50, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e54, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e58, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e5c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e60, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e64, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e68, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e6c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e70, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e74, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e78, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e7c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e80, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e84, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e88, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e8c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e90, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e94, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e98, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003e9c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ea0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ea4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ea8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003eac, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003eb0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003eb4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003eb8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ebc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ec0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ec4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ec8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ecc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ed0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ed4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ed8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003edc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ee0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ee4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ee8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003eec, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ef0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ef4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003ef8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003efc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f00, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f04, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f08, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f0c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f10, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f14, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f18, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f1c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f20, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f24, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f28, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f2c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f30, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f34, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f38, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f3c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f40, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f44, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f48, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f4c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f50, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f54, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f58, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f5c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f60, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f64, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f68, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f6c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f70, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f74, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f78, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f7c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f80, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f84, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f88, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f8c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f90, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f94, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f98, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003f9c, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fa0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fa4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fa8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fac, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fb0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fb4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fb8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fbc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fc0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fc4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fc8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fcc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fd0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fd4, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fd8, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fdc, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Address = 0a003fe0, Mask = ffffffff
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 BasicInfo: Values:
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 BasicInfo: InputStream = com.microchip.mplab.libs.toolpacksupport.EquatableFileInputStream@aff731e8, ToolFlavor = PICKit4
+44566 1718888456588 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Post:init
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 none
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return End
+
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Pre:GetInterfaceProvider
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 RI4DebugInterface
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Post:GetInterfaceProvider
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 com.microchip.mplab.libs.scriptbasedcontroller.implementations.DebugImplWithAtmelIceHelp@fb4343b
+44566 1718888456589 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return End
+
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Pre:GetInterfaceProvider
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 RI4ProgramInterface
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Post:GetInterfaceProvider
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 com.microchip.mplab.libs.scriptbasedcontroller.implementations.ProgramImpl@7eb53151
+44566 1718888456591 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return End
+
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Pre:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 RI4ConnectInterface
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Post:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 com.microchip.mplab.libs.scriptbasedcontroller.implementations.ICD4TrapCallDeviceIDCommunicationsImpl@229a1dde
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return End
+44566 1718888456597 GEN4_CONNECT_DIAGNOSTICS:acceptablePIDs = [810a, 8109, 810b]
+44566 1718888456597 GEN4_CONNECT_DIAGNOSTICS:otherPIDs = [2184]
+44566 1718888456597 GEN4_CONNECT_DIAGNOSTICS:Setting selected tool type to pk4
+44566 1718888456597 GEN4_CONNECT_DIAGNOSTICS:otherPIDs = [2184]
+44566 1718888456597 GEN4_CONNECT_DIAGNOSTICS:acceptablePIDs = [810a, 8109, 810b]
+
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Pre:selectCore
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 PIC32CM5112GC00100
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Post:selectCore
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 none
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return End
+
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Pre:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 RI4ControllerDiagnosticsInterface
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Post:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 com.microchip.mplab.libs.atmelice.implementations.UnimplementedDiagnostics@75729f65
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return End
+
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Pre:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 ProgrammerToGo
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Post:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 null
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return End
+
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Pre:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Status
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Post:GetInterfaceProvider
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 null
+44566 1718888456597 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_PIC32CM5112GC00100 Return End
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:Created FirmwareUpdateHandler com.microchip.mplab.mdbcore.pk4hybrid.pk4hybridFirmwareUpdateHandler@50547497
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.pk4hybrid.pk4hybridFirmwareUpdateHandler.UpdateFirmware(FirmwareInfo, UpdateMessage)
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:areWeInBoot returned false
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:inBoot = false
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:uMode = checkingVersions
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:selectedTool = pk4
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:current toolType = pk4
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:current tool mode = pk4
+44566 1718888456612 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.pk4hybrid.pk4hybridFirmwareUpdateHandler.GetUpdateInfo()
+44566 1718888456613 GEN4_CONNECT_DIAGNOSTICS:Parsing file  for firmware updates
+44566 1718888456613 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.pk4hybrid.pk4hybridFirmwareUpdateHandler.ParseSelectedVersionsFromJamFile()
+44566 1718888456614 GEN4_CONNECT_DIAGNOSTICS:Jame file line = pkob4_boot.hex,010141
+44566 1718888456614 GEN4_CONNECT_DIAGNOSTICS:Jame file line = scripts.xml,000744
+44566 1718888456614 GEN4_CONNECT_DIAGNOSTICS:Jame file line = pkob4_app1 000743, 0040C000
+44566 1718888456614 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.pk4hybrid.pk4hybridFirmwareUpdateHandler.ri4ParseSelectedVersionsFromJamFile()
+44566 1718888456614 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.pk4hybrid.pk4hybridFirmwareUpdateHandler.GetUpdateInfo()
+44566 1718888456614 GEN4_CONNECT_DIAGNOSTICS:current toolType = pk4
+
+44566 1718888456614 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Pre:EstablishCommunincations
+44566 1718888456614 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456614 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 com.microchip.mplab.mdbcore.PK4Tool.PK4Com@684aabca
+44566 1718888456614 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456617 ExecuteFunCall.call debug_write_supports_flash
+44566 1718888456621 ExecuteFunCall.call begin_communication_session
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Post:EstablishCommunincations
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return Value
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 true
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Return End
+
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Pre:GetFirmwareInfo
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 null
+44566 1718888456632 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_PIC32CM5112GC00100 Payload End
+44566 1718888456637 XXXX 1718888456637, Thread 44566: com.Send returned false 
+44566 1718888456640 XXXX 1718888456640, Thread 44566: execCommand: exception after writeSideChanel null 
