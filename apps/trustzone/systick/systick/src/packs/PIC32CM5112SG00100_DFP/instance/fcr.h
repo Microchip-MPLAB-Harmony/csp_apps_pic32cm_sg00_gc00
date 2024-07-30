@@ -17,7 +17,7 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-07-09T16:21:19Z */
+/* file generated from device description file (ATDF) version 2024-07-26T17:56:43Z */
 #ifndef _PIC32CMSG00_FCR_INSTANCE_
 #define _PIC32CMSG00_FCR_INSTANCE_
 
@@ -86,7 +86,6 @@
 #define FCR_PFM_PNL_DATA_MSB                     (139)      /* -- */
 #define FCR_PFM_PNL_WDATA_MSB                    (34)       /* Parameter only in DOS Rev C, not in RTL */
 #define FCR_PFM_ROW_ADDR_MSB                     (9)        /* -- */
-//#define FCR_PFM_SIZE                             (6)        /* -- */
 #define FCR_PFM_SRHT_PRESENT                     (0)        /* -- */
 #define FCR_PFM_SYS_ADDR_MSB                     (18)       /* -- */
 #define FCR_PFM_TDPDH_NS                         (5000)     /* -- */

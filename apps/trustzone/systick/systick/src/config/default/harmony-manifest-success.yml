@@ -4,19 +4,19 @@
 
 
 project: systick
-creation_date: 2024-07-25T15:56:26.651+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2024-07-30T16:51:59.791+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.5.1
 mcc_core_version: v5.7.1
 mplabx_version: v6.20        # if MPLAB X plugin only
 harmony_version: v1.5.2
-compiler: XC32 4.40
+compiler: XC32 4.45
 
 modules:
-    - {name: "csp", version: "qs_support_dev_merge_ready"}
+    - {name: "csp", version: "qs_support_master"}
     - {name: "CMSIS_5", version: "5.8.0"}
 
 packs:
-    - {name: "PIC32CM-SG00_DFP", version: "1.0.13"}
+    - {name: "PIC32CM-SG00_DFP", version: "1.0.14"}
 
