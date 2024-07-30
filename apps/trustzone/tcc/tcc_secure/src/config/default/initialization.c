@@ -51,6 +51,8 @@
 // Section: Configuration Bits
 // ****************************************************************************
 // ****************************************************************************
+#pragma config FUSES_BOOTCFG1_DEVSIGN_SEQ = 0x1U
+#pragma config FUSES_BOOTCFG1_DEVSIGN_SEQBAR = 0xfffeU
 #pragma config FUSES_BOOTCFG1_BOOT_FLAG_PUFRETRY = CLEAR
 #pragma config FUSES_BOOTCFG1_BOOT_FLAG_PUFSTARTUP = CLEAR
 #pragma config FUSES_BOOTCFG1_BOOT_FLAG_DICEDIS = SET
@@ -128,7 +130,7 @@
 #pragma config FUSES_BOOTCFG1_H2PB0_NONSECSETA_NONSEC29 = CLEAR
 #pragma config FUSES_BOOTCFG1_H2PB0_NONSECSETA_NONSEC30 = CLEAR
 #pragma config FUSES_BOOTCFG1_H2PB0_NONSECSETA_NONSEC31 = CLEAR
-#pragma config FUSES_BOOTCFG1_PAC_WRCTRL_H2PB0_PERID = 0x13U
+#pragma config FUSES_BOOTCFG1_PAC_WRCTRL_H2PB0_PERID = 0x0U
 #pragma config FUSES_BOOTCFG1_PAC_WRCTRL_H2PB0_KEY = OFF
 #pragma config FUSES_BOOTCFG1_H2PB1_NONSECCLRA_NONSEC0 = CLEAR
 #pragma config FUSES_BOOTCFG1_H2PB1_NONSECCLRA_NONSEC1 = SET
@@ -308,6 +310,8 @@
 #pragma config FUSES_BOOTCFG1_WDT_SETUP_PER = CYC8
 #pragma config FUSES_BOOTCFG1_WDT_SETUP_WINDOW = CYC8
 #pragma config FUSES_BOOTCFG1_WDT_SETUP_EWOFFSET = CYC8
+#pragma config FUSES_BOOTCFG1A_DEVSIGN_SEQ = 0x1U
+#pragma config FUSES_BOOTCFG1A_DEVSIGN_SEQBAR = 0xfffeU
 #pragma config FUSES_BOOTCFG1A_BOOT_FLAG_PUFRETRY = CLEAR
 #pragma config FUSES_BOOTCFG1A_BOOT_FLAG_PUFSTARTUP = CLEAR
 #pragma config FUSES_BOOTCFG1A_BOOT_FLAG_DICEDIS = SET
@@ -597,9 +601,9 @@ void SYS_Initialize ( void* data )
 
 
 
-    EVSYS_Initialize();
-
     TCC0_CompareInitialize();
+
+    EVSYS_Initialize();
 
 	SYSTICK_TimerInitialize();
     PM_Initialize();

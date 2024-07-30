@@ -17,7 +17,7 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-07-09T16:21:19Z */
+/* file generated from device description file (ATDF) version 2024-07-26T17:56:43Z */
 #ifndef _PIC32CMSG00_FUSES_COMPONENT_H_
 #define _PIC32CMSG00_FUSES_COMPONENT_H_
 
@@ -788,6 +788,18 @@
 #define FUSES_PUF_AC_PUF_AC_Msk               (_UINT32_(0xFFFFFFFF) << FUSES_PUF_AC_PUF_AC_Pos)    /* (FUSES_PUF_AC)  Mask */
 #define FUSES_PUF_AC_PUF_AC(value)            (FUSES_PUF_AC_PUF_AC_Msk & (_UINT32_(value) << FUSES_PUF_AC_PUF_AC_Pos)) /* Assigment of value for PUF_AC in the FUSES_PUF_AC register */
 #define FUSES_PUF_AC_Msk                      _UINT32_(0xFFFFFFFF)                                 /* (FUSES_PUF_AC) Register Mask  */
+
+
+/* -------- FUSES_DEVSIGN : (FUSES Offset: 0x00) (R/W 32) DEVSIGN -------- */
+#define FUSES_DEVSIGN_RESETVALUE              _UINT32_(0xFFFFFFFF)                                 /*  (FUSES_DEVSIGN) DEVSIGN  Reset Value */
+
+#define FUSES_DEVSIGN_SEQ_Pos                 _UINT32_(0)                                          /* (FUSES_DEVSIGN) Sequence number Position */
+#define FUSES_DEVSIGN_SEQ_Msk                 (_UINT32_(0xFFFF) << FUSES_DEVSIGN_SEQ_Pos)          /* (FUSES_DEVSIGN) Sequence number Mask */
+#define FUSES_DEVSIGN_SEQ(value)              (FUSES_DEVSIGN_SEQ_Msk & (_UINT32_(value) << FUSES_DEVSIGN_SEQ_Pos)) /* Assigment of value for SEQ in the FUSES_DEVSIGN register */
+#define FUSES_DEVSIGN_SEQBAR_Pos              _UINT32_(16)                                         /* (FUSES_DEVSIGN) Sequence number BAR Position */
+#define FUSES_DEVSIGN_SEQBAR_Msk              (_UINT32_(0xFFFF) << FUSES_DEVSIGN_SEQBAR_Pos)       /* (FUSES_DEVSIGN) Sequence number BAR Mask */
+#define FUSES_DEVSIGN_SEQBAR(value)           (FUSES_DEVSIGN_SEQBAR_Msk & (_UINT32_(value) << FUSES_DEVSIGN_SEQBAR_Pos)) /* Assigment of value for SEQBAR in the FUSES_DEVSIGN register */
+#define FUSES_DEVSIGN_Msk                     _UINT32_(0xFFFFFFFF)                                 /* (FUSES_DEVSIGN) Register Mask  */
 
 
 /* -------- FUSES_BOOT_FLAG : (FUSES Offset: 0x800) (R/W 32) BOOT CODE FLAGS REGISTER -------- */
@@ -2969,6 +2981,7 @@
 #define FUSES_PUF_AC246_REG_OFST       _UINT32_(0xFD8)     /* (FUSES_PUF_AC246) Mapped Fuse Register Offset */
 #define FUSES_PUF_AC247_REG_OFST       _UINT32_(0xFDC)     /* (FUSES_PUF_AC247) Mapped Fuse Register Offset */
 #define FUSES_PUF_AC248_REG_OFST       _UINT32_(0xFE0)     /* (FUSES_PUF_AC248) Mapped Fuse Register Offset */
+#define FUSES_DEVSIGN_REG_OFST         _UINT32_(0x00)      /* (FUSES_DEVSIGN) DEVSIGN Offset */
 #define FUSES_BOOT_FLAG_REG_OFST       _UINT32_(0x800)     /* (FUSES_BOOT_FLAG) BOOT CODE FLAGS REGISTER Offset */
 #define FUSES_DICE_CDI_INDEX_REG_OFST  _UINT32_(0x810)     /* (FUSES_DICE_CDI_INDEX) Mapped Fuse Register Offset */
 #define FUSES_DICE_FW_HASH_INDEX_REG_OFST _UINT32_(0x814)     /* (FUSES_DICE_FW_HASH_INDEX) Mapped Fuse Register Offset */
@@ -3117,7 +3130,8 @@ typedef struct
 /** \brief FUSES_BOOTCFG1 register API structure */
 typedef struct
 {  /* Defines FUSES module data */
-  __I   uint8_t                        Reserved1[0x800];
+  __IO  uint32_t                       FUSES_DEVSIGN;      /**< Offset: 0x00 (R/W  32) DEVSIGN */
+  __I   uint8_t                        Reserved1[0x7FC];
   __IO  uint32_t                       FUSES_BOOT_FLAG;    /**< Offset: 0x800 (R/W  32) BOOT CODE FLAGS REGISTER */
   __I   uint8_t                        Reserved2[0x0C];
   __IO  uint32_t                       FUSES_DICE_CDI_INDEX; /**< Offset: 0x810 (R/W  32) Mapped Fuse Register */

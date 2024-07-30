@@ -17,7 +17,7 @@
  *
  */
 
-/* File generated from device description file (ATDF) version 2024-07-09T16:21:19Z */
+/* File generated from device description file (ATDF) version 2024-07-26T17:56:43Z */
 #ifndef _PIC32CM5112SG00100_H_
 #define _PIC32CM5112SG00100_H_
 
