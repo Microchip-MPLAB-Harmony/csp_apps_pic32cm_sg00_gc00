@@ -17,7 +17,7 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-07-09T16:21:19Z */
+/* file generated from device description file (ATDF) version 2024-07-26T17:56:43Z */
 #ifndef _PIC32CMSG00_OSCCTRL_COMPONENT_H_
 #define _PIC32CMSG00_OSCCTRL_COMPONENT_H_
 
