@@ -1,8 +1,3 @@
----
-title: Release notes
-nav_order: 99
----
-
 ![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
@@ -31,5 +26,5 @@ Following table provides number of peripheral library examples available for dif
 
 - [MPLAB® X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® X IDE plug-ins:
-  - MPLAB® Code Configurator (MCC) v5.3.0
+  - MPLAB® Code Configurator (MCC) v5.5.1
 - [MPLAB® XC32 C/C++ Compiler v4.45](https://www.microchip.com/mplab/compilers)

@@ -13,7 +13,7 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM-GC/SG family
 
 - [Release Notes](release_notes.md)
-- [MPLAB® Harmony License](mplab_harmony_license.md)
+- [MPLAB® Harmony License](Microchip_SLA001.md)
 
 To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc) and then click **Clone** button to clone this repository or download as zip file.
 This content can also be downloaded using MCC content manager.
@@ -26,7 +26,8 @@ This content can also be downloaded using MCC content manager.
 
 ## Code Examples
 
-[Click here](https://internal.onlinedocs.microchip.com/g/GUID-6BA29A63-EBA8-4692-9DF3-D32DCEA3596C) to view the documentation for the code examples hosted in this repository. Same can be downloaded for offline viewing from [here](https://internal.onlinedocs.microchip.com/download/GUID-6BA29A63-EBA8-4692-9DF3-D32DCEA3596C?type=webhelp).
+[Click here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CSP_APPS_PIC32CM_SG_GC_INTRODUCTION&redirect=true) to view the documentation for the code examples available in this repository. 
+[Click here](https://onlinedocs.microchip.com/download/GUID-6BA29A63-EBA8-4692-9DF3-D32DCEA3596C?type=webhelp) to download the same documentation for offline viewing.
 
 ____
 
