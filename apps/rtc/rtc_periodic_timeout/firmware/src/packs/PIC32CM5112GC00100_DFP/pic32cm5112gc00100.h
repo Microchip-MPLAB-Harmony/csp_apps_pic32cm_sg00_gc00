@@ -3,6 +3,8 @@
  *
  * Copyright (c) 2024 Microchip Technology Inc. and its subsidiaries.
  *
+ * SPDX-License-Identifier: Apache-2.0
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -64,7 +66,7 @@
 #endif /* SKIP_INTEGER_LITERALS */
 
 /* ************************************************************************** */
-/* CMSIS DEFINITIONS FOR PIC32CM5112GC00100                                 */
+/*                  CMSIS DEFINITIONS FOR PIC32CM5112GC00100                  */
 /* ************************************************************************** */
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /* Interrupt Number Definition */
@@ -78,7 +80,7 @@ typedef enum IRQn
   PendSV_IRQn               =  -2, /* -2  Pendable request for system service */
   SysTick_IRQn              =  -1, /* -1  System Tick Timer                   */
 
-/******  PIC32CM5112GC00100 specific Interrupt Numbers ***********************************/
+/* ************* PIC32CM5112GC00100 specific Interrupt Numbers ************** */
   FCR_IRQn                  =   0, /* 0   Polaris Flash Read Controller (FCR) */
   FCW_IRQn                  =   1, /* 1   Polaris Flash Write Controller (FCW) */
   PM_IRQn                   =   2, /* 2   Power Manager (PM)                  */
@@ -560,7 +562,7 @@ void AT_Handler                    ( void );
 #endif /* USE_CMSIS_INIT */
 
 /* ************************************************************************** */
-/*   SOFTWARE PERIPHERAL API DEFINITION FOR PIC32CM5112GC00100                */
+/*         SOFTWARE PERIPHERAL API DEFINITIONS FOR PIC32CM5112GC00100         */
 /* ************************************************************************** */
 #include "component/ac.h"
 #include "component/adc.h"
@@ -596,7 +598,7 @@ void AT_Handler                    ( void );
 #include "component/wdt.h"
 
 /* ************************************************************************** */
-/*   INSTANCE DEFINITIONS FOR PIC32CM5112GC00100 */
+/*                INSTANCE DEFINITIONS FOR PIC32CM5112GC00100                 */
 /* ************************************************************************** */
 #include "instance/ac.h"
 #include "instance/adc.h"
@@ -647,7 +649,7 @@ void AT_Handler                    ( void );
 #include "instance/wdt.h"
 
 /* ************************************************************************** */
-/*  PERIPHERAL ID DEFINITIONS FOR PIC32CM5112GC00100                          */
+/*              PERIPHERAL ID DEFINITIONS FOR PIC32CM5112GC00100              */
 /* ************************************************************************** */
 #define ID_DSU           (  0) /* Instance index for DSU (DSU) */
 #define ID_FCR           (  1) /* Instance index for FCR (FCR) */
@@ -699,7 +701,7 @@ void AT_Handler                    ( void );
 #define ID_PERIPH_MAX    ( 47) /* Number of peripheral IDs */
 
 /* ************************************************************************** */
-/*   REGISTER STRUCTURE ADDRESS DEFINITIONS FOR PIC32CM5112GC00100            */
+/*       REGISTER STRUCTURE ADDRESS DEFINITIONS FOR PIC32CM5112GC00100        */
 /* ************************************************************************** */
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 #define AC_REGS                          ((ac_registers_t*)0x4482a000)                 /* AC Registers Address         */
@@ -755,7 +757,7 @@ void AT_Handler                    ( void );
 #endif /* (defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
 
 /* ************************************************************************** */
-/*   BASE ADDRESS DEFINITIONS FOR PIC32CM5112GC00100                          */
+/*              BASE ADDRESS DEFINITIONS FOR PIC32CM5112GC00100               */
 /* ************************************************************************** */
 #define AC_BASE_ADDRESS                  _UINT32_(0x4482a000)                          /* AC Base Address */
 #define ADC_BASE_ADDRESS                 _UINT32_(0x44818000)                          /* ADC Base Address */
@@ -809,12 +811,12 @@ void AT_Handler                    ( void );
 #define WDT_BASE_ADDRESS                 _UINT32_(0x4400e000)                          /* WDT Base Address */
 
 /* ************************************************************************** */
-/*   PIO DEFINITIONS FOR PIC32CM5112GC00100                                   */
+/*                   PIO DEFINITIONS FOR PIC32CM5112GC00100                   */
 /* ************************************************************************** */
 #include "pio/pic32cm5112gc00100.h"
 
 /* ************************************************************************** */
-/*   MEMORY MAPPING DEFINITIONS FOR PIC32CM5112GC00100                        */
+/*             MEMORY MAPPING DEFINITIONS FOR PIC32CM5112GC00100              */
 /* ************************************************************************** */
 #define BROMC_ROM_SIZE                 _UINT32_(0x00010000)    /*   64kB Memory segment type: rom */
 #define FCR_BFM_SIZE                   _UINT32_(0x00004000)    /*   16kB Memory segment type: flash */
@@ -851,16 +853,16 @@ void AT_Handler                    ( void );
 #define PPB_ADDR                       _UINT32_(0xe0000000)    /* PPB base address (type: io)*/
 
 /* ************************************************************************** */
-/*   DEVICE SIGNATURES FOR PIC32CM5112GC00100                                 */
+/*                  DEVICE SIGNATURES FOR PIC32CM5112GC00100                  */
 /* ************************************************************************** */
 #define CHIP_DSU_DID                   _UINT32_(0X0AC00053)
 
 /* ************************************************************************** */
-/*   ELECTRICAL DEFINITIONS FOR PIC32CM5112GC00100                            */
+/*               ELECTRICAL DEFINITIONS FOR PIC32CM5112GC00100                */
 /* ************************************************************************** */
 
 /* ************************************************************************** */
-/* Event Generator IDs for C32CM5112GC00100 */
+/*                  Event Generator IDs for C32CM5112GC00100                  */
 /* ************************************************************************** */
 #define EVENT_ID_GEN_SUPC_LVDET                           1 /* ID for SUPC event generator LVDET */
 #define EVENT_ID_GEN_OSCCTRL_XOSCFAIL                     2 /* ID for OSCCTRL event generator XOSCFAIL */
@@ -954,7 +956,7 @@ void AT_Handler                    ( void );
 #define EVENT_ID_GEN_CCL1_LUTOUT3                        90 /* ID for CCL1 event generator LUTOUT3 */
 
 /* ************************************************************************** */
-/*  Event User IDs for C32CM5112GC00100 */
+/*                    Event User IDs for C32CM5112GC00100                     */
 /* ************************************************************************** */
 #define EVENT_ID_USER_FREQM_START                         0 /* ID for FREQM event user START */
 #define EVENT_ID_USER_RTC_TAMPER                          1 /* ID for RTC event user TAMPER */
