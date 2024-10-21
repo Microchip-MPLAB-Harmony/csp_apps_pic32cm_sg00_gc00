@@ -137,7 +137,7 @@ uint32_t TCC6_CompareFrequencyGet( void )
 void TCC6_CompareCommandSet(TCC_COMMAND command)
 {
     TCC6_REGS->TCC_CTRLBSET = (uint8_t)((uint32_t)command << TCC_CTRLBSET_CMD_Pos);
-    while((TCC6_REGS->TCC_SYNCBUSY) != 0U)
+    while ((TCC6_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_CTRLB_Msk) == TCC_SYNCBUSY_CTRLB_Msk)
     {
         /* Wait for Write Synchronization */
     }    
