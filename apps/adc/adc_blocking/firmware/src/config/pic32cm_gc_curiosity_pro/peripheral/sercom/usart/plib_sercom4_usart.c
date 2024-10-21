@@ -47,20 +47,15 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
 #include "interrupts.h"
 #include "plib_sercom4_usart.h"
-
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data
 // *****************************************************************************
 // *****************************************************************************
-
-
 /* SERCOM4 USART baud value for 115200 Hz baud rate */
 #define SERCOM4_USART_INT_BAUD_VALUE            (62180UL)
-
 
 
 
@@ -103,6 +98,7 @@ void SERCOM4_USART_Initialize( void )
      * Configures Sampling rate
      * Configures IBON
      */
+
     SERCOM4_REGS->USART.SERCOM_CTRLA = SERCOM_USART_CTRLA_MODE_INTCLK | SERCOM_USART_CTRLA_RXPO(0x1UL) | SERCOM_USART_CTRLA_TXPO(0x0UL) | SERCOM_USART_CTRLA_DORD_Msk | SERCOM_USART_CTRLA_IBON_Msk | SERCOM_USART_CTRLA_FORM(0x0UL) | SERCOM_USART_CTRLA_SAMPR(0UL) ;
 
     /* Configure Baud Rate */
@@ -134,6 +130,10 @@ void SERCOM4_USART_Initialize( void )
     }
 }
 
+
+
+
+
 uint32_t SERCOM4_USART_FrequencyGet( void )
 {
     return 36000000UL;
@@ -144,6 +144,7 @@ bool SERCOM4_USART_SerialSetup( USART_SERIAL_SETUP * serialSetup, uint32_t clkFr
     bool setupStatus       = false;
     uint32_t baudValue     = 0U;
     uint32_t sampleRate    = 0U;
+    uint32_t sampleCount   = 0U;
 
     if((serialSetup != NULL) && (serialSetup->baudRate != 0U))
     {
@@ -154,24 +155,24 @@ bool SERCOM4_USART_SerialSetup( USART_SERIAL_SETUP * serialSetup, uint32_t clkFr
 
         if(clkFrequency >= (16U * serialSetup->baudRate))
         {
-            baudValue = 65536U - (uint32_t)(((uint64_t)65536U * 16U * serialSetup->baudRate) / clkFrequency);
             sampleRate = 0U;
+            sampleCount = 16U;
         }
         else if(clkFrequency >= (8U * serialSetup->baudRate))
         {
-            baudValue = 65536U - (uint32_t)(((uint64_t)65536U * 8U * serialSetup->baudRate) / clkFrequency);
             sampleRate = 2U;
+            sampleCount = 8U;
         }
         else if(clkFrequency >= (3U * serialSetup->baudRate))
         {
-            baudValue = 65536U - (uint32_t)(((uint64_t)65536U * 3U * serialSetup->baudRate) / clkFrequency);
             sampleRate = 4U;
+            sampleCount = 3U;
         }
         else
         {
             /* Do nothing */
         }
-
+        baudValue = 65536U - (uint32_t)(((uint64_t)65536U * sampleCount * serialSetup->baudRate) / clkFrequency);
         /* Disable the USART before configurations */
         SERCOM4_REGS->USART.SERCOM_CTRLA &= ~SERCOM_USART_CTRLA_ENABLE_Msk;
 
@@ -446,4 +447,8 @@ int SERCOM4_USART_ReadByte( void )
 {
     return (int)SERCOM4_REGS->USART.SERCOM_DATA;
 }
+
+
+
+
 
