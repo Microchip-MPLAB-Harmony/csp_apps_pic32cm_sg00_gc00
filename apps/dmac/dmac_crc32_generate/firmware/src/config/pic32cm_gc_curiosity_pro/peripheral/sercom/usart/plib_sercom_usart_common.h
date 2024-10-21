@@ -393,7 +393,7 @@ typedef struct
 
 } SERCOM_USART_RING_BUFFER_OBJECT;
 
-
+// *****************************************************************************
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
 
