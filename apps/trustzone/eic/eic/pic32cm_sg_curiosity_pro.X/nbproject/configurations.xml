@@ -202,14 +202,14 @@
         <targetDevice>PIC32CM5112SG00100</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.45</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
+        <pack name="PIC32CM-SG00_DFP" vendor="Microchip" version="1.0.26"/>
         <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
-        <pack name="PIC32CM-SG00_DFP" vendor="Microchip" version="1.0.14"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -520,8 +520,6 @@
         <property key="toolpack.updateoptions"
                   value="toolpack.updateoptions.specifictoolpack"/>
         <property key="toolpack.updateoptions.packversion" value="1.17.1294"/>
-        <property key="x.erase.key" value="0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF"/>
-        <property key="x.erase.type" value="ChipEraseAll"/>
       </pkob4hybrid>
     </conf>
   </confs>
