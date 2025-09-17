@@ -1,0 +1,525 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.2
+device: PIC32CM5112GC00100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '30'
+          y: '179'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    GCLK_ID_25_CHEN:
+      attributes:
+        id: GCLK_ID_25_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_25_FREQ:
+      attributes:
+        id: GCLK_ID_25_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '36000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_32_CHEN:
+      attributes:
+        id: GCLK_ID_32_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_32_FREQ:
+      attributes:
+        id: GCLK_ID_32_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '36000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    NVIC_126_0_ENABLE:
+      attributes:
+        id: NVIC_126_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_126_0_HANDLER:
+      attributes:
+        id: NVIC_126_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC6_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_126_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_126_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_127_0_ENABLE:
+      attributes:
+        id: NVIC_127_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_127_0_HANDLER:
+      attributes:
+        id: NVIC_127_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC6_CNT_TRG_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_127_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_127_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_128_0_ENABLE:
+      attributes:
+        id: NVIC_128_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_128_0_HANDLER:
+      attributes:
+        id: NVIC_128_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC6_MC_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_128_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_128_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_129_0_ENABLE:
+      attributes:
+        id: NVIC_129_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_129_0_HANDLER:
+      attributes:
+        id: NVIC_129_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC6_MC_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_129_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_129_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_88_0_ENABLE:
+      attributes:
+        id: NVIC_88_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_88_0_HANDLER:
+      attributes:
+        id: NVIC_88_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_88_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_88_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_89_0_ENABLE:
+      attributes:
+        id: NVIC_89_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_89_0_HANDLER:
+      attributes:
+        id: NVIC_89_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_CNT_TRG_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_89_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_89_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_90_0_ENABLE:
+      attributes:
+        id: NVIC_90_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_90_0_HANDLER:
+      attributes:
+        id: NVIC_90_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_90_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_90_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_91_0_ENABLE:
+      attributes:
+        id: NVIC_91_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_91_0_HANDLER:
+      attributes:
+        id: NVIC_91_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_91_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_91_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_3_FUNCTION_TYPE:
+      attributes:
+        id: PIN_3_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: TCC6_WO0
+          type: User
+        type: Values
+      type: String
+    PIN_3_MODE:
+      attributes:
+        id: PIN_3_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_3_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_3_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: F
+          type: User
+        type: Values
+      type: String
+    PIN_51_FUNCTION_TYPE:
+      attributes:
+        id: PIN_51_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: TCC0_WO0
+          type: User
+        type: Values
+      type: String
+    PIN_51_MODE:
+      attributes:
+        id: PIN_51_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_51_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_51_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: F
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_1:
+      attributes:
+        id: PORT_GROUP_0_PAD_1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA01
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG1:
+      attributes:
+        id: PORT_GROUP_0_PINCFG1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PIN_1_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_1_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PMUX0:
+      attributes:
+        id: PORT_GROUP_0_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x50'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PAD_0:
+      attributes:
+        id: PORT_GROUP_2_PAD_0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PC00
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PINCFG0:
+      attributes:
+        id: PORT_GROUP_2_PINCFG0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_PIN_0_USED:
+      attributes:
+        id: PORT_GROUP_2_PIN_0_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_2_PMUX0:
+      attributes:
+        id: PORT_GROUP_2_PMUX0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x5'
+          type: Dynamic
+        type: Values
+      type: String
+    TCC6_CLOCK_ENABLE:
+      attributes:
+        id: TCC6_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: tcc6
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC6_CLOCK_FREQUENCY:
+      attributes:
+        id: TCC6_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '36000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '290'
+        canvasWidth: '535'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
