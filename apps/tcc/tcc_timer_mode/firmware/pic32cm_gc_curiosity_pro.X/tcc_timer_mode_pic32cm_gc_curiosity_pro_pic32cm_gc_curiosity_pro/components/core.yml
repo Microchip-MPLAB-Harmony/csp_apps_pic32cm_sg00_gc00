@@ -1,0 +1,337 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.2
+device: PIC32CM5112GC00100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '30'
+          y: '180'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    GCLK_ID_25_CHEN:
+      attributes:
+        id: GCLK_ID_25_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_25_FREQ:
+      attributes:
+        id: GCLK_ID_25_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '36000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    NVIC_88_0_ENABLE:
+      attributes:
+        id: NVIC_88_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_88_0_HANDLER:
+      attributes:
+        id: NVIC_88_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_OTHER_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_88_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_88_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_89_0_ENABLE:
+      attributes:
+        id: NVIC_89_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_89_0_HANDLER:
+      attributes:
+        id: NVIC_89_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_CNT_TRG_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_89_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_89_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_90_0_ENABLE:
+      attributes:
+        id: NVIC_90_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_90_0_HANDLER:
+      attributes:
+        id: NVIC_90_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_90_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_90_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_91_0_ENABLE:
+      attributes:
+        id: NVIC_91_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_91_0_HANDLER:
+      attributes:
+        id: NVIC_91_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: TCC0_MC_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_91_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_91_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_24_DIR:
+      attributes:
+        id: PIN_24_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_24_FUNCTION_NAME:
+      attributes:
+        id: PIN_24_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: LED
+          type: User
+        type: Values
+      type: String
+    PIN_24_FUNCTION_TYPE:
+      attributes:
+        id: PIN_24_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_24_INEN:
+      attributes:
+        id: PIN_24_INEN
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_24_LAT:
+      attributes:
+        id: PIN_24_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    PIN_24_MODE:
+      attributes:
+        id: PIN_24_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_24_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_24_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_0_DIR:
+      attributes:
+        id: PORT_GROUP_0_DIR
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x100000'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_OUT:
+      attributes:
+        id: PORT_GROUP_0_OUT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x100000'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_20:
+      attributes:
+        id: PORT_GROUP_0_PAD_20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA20
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG20:
+      attributes:
+        id: PORT_GROUP_0_PINCFG20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PIN_20_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_20_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PMUX10:
+      attributes:
+        id: PORT_GROUP_0_PMUX10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '290'
+        canvasWidth: '377'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
