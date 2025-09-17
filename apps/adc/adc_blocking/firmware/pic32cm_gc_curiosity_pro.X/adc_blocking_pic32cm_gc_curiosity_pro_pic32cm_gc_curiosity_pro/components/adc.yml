@@ -1,0 +1,238 @@
+configVersion: 1.0.0
+componentName: adc
+coreVersion: 5.8.2
+device: PIC32CM5112GC00100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: adc
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: adc
+          x: '30'
+          y: '300'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    ADC_CORE_0_ADC_CHNCFG1:
+      attributes:
+        id: ADC_CORE_0_ADC_CHNCFG1
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_CHNCFG2:
+      attributes:
+        id: ADC_CORE_0_ADC_CHNCFG2
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_CHNCFG3:
+      attributes:
+        id: ADC_CORE_0_ADC_CHNCFG3
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_CHNCFG4:
+      attributes:
+        id: ADC_CORE_0_ADC_CHNCFG4
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_CHNCFG5:
+      attributes:
+        id: ADC_CORE_0_ADC_CHNCFG5
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_CMPCTRL:
+      attributes:
+        id: ADC_CORE_0_ADC_CMPCTRL
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_CONVERSION_RATE:
+      attributes:
+        id: ADC_CORE_0_ADC_CONVERSION_RATE
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0.1915'
+          type: Dynamic
+        type: Values
+      type: String
+    ADC_CORE_0_ADC_CORCTRL:
+      attributes:
+        id: ADC_CORE_0_ADC_CORCTRL
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '16780368'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_EVCTRL:
+      attributes:
+        id: ADC_CORE_0_ADC_EVCTRL
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_ADC_INTENSET:
+      attributes:
+        id: ADC_CORE_0_ADC_INTENSET
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    ADC_CORE_0_CH_0_CHNCFG4_5_TRGSRC:
+      attributes:
+        id: ADC_CORE_0_CH_0_CHNCFG4_5_TRGSRC
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    ADC_CORE_0_CH_0_ENABLE:
+      attributes:
+        id: ADC_CORE_0_CH_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    ADC_CORE_0_CMPCTRL_CMPEN:
+      attributes:
+        id: ADC_CORE_0_CMPCTRL_CMPEN
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC_CORE_0_CORCTRL_SAMC:
+      attributes:
+        id: ADC_CORE_0_CORCTRL_SAMC
+      children:
+      - children:
+        - attributes:
+            value: '80'
+          type: User
+        type: Values
+      type: Integer
+    ADC_CORE_0_EVCTRL_CMPEO:
+      attributes:
+        id: ADC_CORE_0_EVCTRL_CMPEO
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC_CORE_0_EVCTRL_STARTEI:
+      attributes:
+        id: ADC_CORE_0_EVCTRL_STARTEI
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC_CORE_0_EVCTRL_STARTINV:
+      attributes:
+        id: ADC_CORE_0_EVCTRL_STARTINV
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ADC_CORE_CORE_INT_ENABLED:
+      attributes:
+        id: ADC_CORE_CORE_INT_ENABLED
+      children:
+      - children:
+        - attributes:
+            id: adc
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+  userData: {}
