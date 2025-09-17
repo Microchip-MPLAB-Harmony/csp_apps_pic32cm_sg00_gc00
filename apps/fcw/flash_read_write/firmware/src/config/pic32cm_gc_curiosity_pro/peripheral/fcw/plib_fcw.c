@@ -52,6 +52,9 @@
 #include "plib_fcw.h"
 #include "device_cache.h"
 
+/* MISRAC 2012 deviation block start */
+/* MISRA C-2012 Rule 10.3 deviated 2 times.  Deviation record ID -  H3_MISRAC_2012_R_10_3_DR_1 */
+
 /* ************************************************************************** */
 /* ************************************************************************** */
 /* Section: File Scope or Global Data                                         */
@@ -88,7 +91,7 @@ typedef struct
     uintptr_t Context;
 }fcwCallbackObjType;
 
-volatile static fcwCallbackObjType fcwCallbackObj;
+static volatile fcwCallbackObjType fcwCallbackObj;
 
 /* ************************************************************************** */
 /* ************************************************************************** */
@@ -101,6 +104,50 @@ volatile static fcwCallbackObjType fcwCallbackObj;
 // Section: FCW Implementation
 // *****************************************************************************
 // *****************************************************************************
+void FCW_PFM_PageWriteProtectRestore(uint32_t* pwp_region)
+{
+    for (uint32_t region = 0; region < (uint32_t)FCW_PWP_REGIONS; region++)
+    {
+        if ((*pwp_region & ((uint32_t)1 << region)) != 0U)
+        {
+           FCW_PFM_WriteProtectEnable(region);
+        }
+    }
+}
+
+bool FCW_PFM_PageWriteProtectDisable(uint32_t pageStartAddr, uint32_t* pwp_region)
+{
+    uint32_t region_start_addr;
+    uint32_t region_end_addr;
+    bool status = false;
+
+    *pwp_region = 0;
+
+    if ((pageStartAddr >= FCW_FLASH_START_ADDRESS) && (pageStartAddr < (FCW_FLASH_START_ADDRESS + FCW_FLASH_PFM_SIZE)))
+    {
+        for (uint32_t region = 0; region < (uint32_t)FCW_PWP_REGIONS; region++)
+        {
+            if ((FCW_REGS->FCW_PWP[region] & FCW_PWP_PWPEN_Msk) != 0U)
+            {
+                region_start_addr = FCW_FLASH_START_ADDRESS;
+                region_start_addr += (FCW_REGS->FCW_PWP[region] & FCW_PWP_PWPBASE_Msk >> FCW_PWP_PWPBASE_Pos) << 12U;
+
+                region_end_addr = region_start_addr;
+
+                region_end_addr += ((FCW_REGS->FCW_PWP[region] & FCW_PWP_PWPSIZE_Msk) + 1U) << 12U;
+
+                if (pageStartAddr >= region_start_addr && pageStartAddr < region_end_addr)
+                {
+                    FCW_PFM_WriteProtectDisable(region);
+                    status = true;
+                    *pwp_region |= ((uint32_t)1 << region);
+                }
+            }
+        }
+    }
+
+    return status;
+}
 
 
 void FCW_CallbackRegister( FCW_CALLBACK callback, uintptr_t context )
@@ -152,6 +199,8 @@ static void FCW_StartOperationAtAddress( uint32_t address,  FCW_OPERATION_MODE o
     FCW_REGS->FCW_CTRLOP = FCW_CTRLOP_PREPG_Msk | (FCW_CTRLOP_NVMOP_Msk & (((uint32_t)operation) << FCW_CTRLOP_NVMOP_Pos));
 }
 
+/* MISRAC 2012 deviation block end */
+
 /* ************************************************************************** */
 /* ************************************************************************** */
 // Section: Interface Functions                                               */
@@ -185,7 +234,7 @@ bool FCW_SingleWordWrite( uint32_t *data, uint32_t address )
     }
 
     FCW_REGS->FCW_DATA[0] = *data;
-    data++;    
+    data++;
 
     FCW_StartOperationAtAddress( address,  SINGLE_WORD_PROGRAM_OPERATION);
 
@@ -206,7 +255,7 @@ bool FCW_QuadWordWrite( uint32_t *data, uint32_t address )
     FCW_REGS->FCW_DATA[2] = *data;
     data++;
     FCW_REGS->FCW_DATA[3] = *data;
-    data++;    
+    data++;
 
     FCW_StartOperationAtAddress( address,  QUAD_WORD_PROGRAM_OPERATION);
 
@@ -310,6 +359,48 @@ void FCW_PFM_WriteProtectDisable(PFM_WP_REGION region)
     FCW_UnlockSequence(FCW_UNLOCK_CFGKEY);
 
     FCW_REGS->FCW_PWP[region] &= (~FCW_PWP_PWPEN_Msk);
+}
+
+void FCW_BootConfig_WriteProtectEnable(void)
+{
+    while(((FCW_REGS->FCW_STATUS & FCW_STATUS_BUSY_Msk)) != 0U)
+    {
+        /* Do Nothing */
+    }
+
+    FCW_UnlockSequence(FCW_UNLOCK_CFGKEY);
+
+    FCW_REGS->FCW_CWP |= (FCW_CWP_BC1WP_Msk | FCW_CWP_BC1AWP_Msk);
+}
+
+uint32_t FCW_BootConfig_WriteProtectDisable(void)
+{
+    uint32_t previous_val;
+
+    while(((FCW_REGS->FCW_STATUS & FCW_STATUS_BUSY_Msk)) != 0U)
+    {
+        /* Do Nothing */
+    }
+
+    FCW_UnlockSequence(FCW_UNLOCK_CFGKEY);
+
+    previous_val = FCW_REGS->FCW_CWP;
+
+    FCW_REGS->FCW_CWP &= ~(FCW_CWP_BC1WP_Msk | FCW_CWP_BC1AWP_Msk);
+
+    return previous_val;
+}
+
+void FCW_BootConfig_WriteProtectRestore(uint32_t previous_val)
+{
+    while(((FCW_REGS->FCW_STATUS & FCW_STATUS_BUSY_Msk)) != 0U)
+    {
+        /* Do Nothing */
+    }
+
+    FCW_UnlockSequence(FCW_UNLOCK_CFGKEY);
+
+    FCW_REGS->FCW_CWP = previous_val;
 }
 
 void FCW_PFM_WriteProtectLock(PFM_WP_REGION region)
