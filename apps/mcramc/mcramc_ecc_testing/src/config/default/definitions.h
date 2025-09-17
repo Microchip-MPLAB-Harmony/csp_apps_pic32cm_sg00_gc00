@@ -14,7 +14,7 @@
 
 //DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -53,8 +53,8 @@
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
-#include "peripheral/ram/plib_ram.h"
 #include "peripheral/pm/plib_pm.h"
+#include "peripheral/ram/plib_ram.h"
 #include "peripheral/sercom/usart/plib_sercom4_usart.h"
 
 // DOM-IGNORE-BEGIN
