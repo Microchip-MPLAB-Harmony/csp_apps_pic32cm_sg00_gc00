@@ -1,0 +1,240 @@
+configVersion: 1.0.0
+componentName: ac
+coreVersion: 5.8.2
+device: PIC32CM5112GC00100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: ac
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: ac
+          x: '169'
+          y: '60'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    AC0_COMPCTRL_RUNSTDBY:
+      attributes:
+        id: AC0_COMPCTRL_RUNSTDBY
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    AC0_COMPCTRL_SUT:
+      attributes:
+        id: AC0_COMPCTRL_SUT
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '31'
+          type: User
+        type: Values
+      type: Integer
+    AC0_DACCTRL_VALUE:
+      attributes:
+        id: AC0_DACCTRL_VALUE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '40'
+          type: User
+        type: Values
+      type: Integer
+    AC0_ISEL:
+      attributes:
+        id: AC0_ISEL
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    AC0_MUXNEG:
+      attributes:
+        id: AC0_MUXNEG
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '5'
+          type: User
+        type: Values
+      type: KeyValueSet
+    AC0_MUXPOS:
+      attributes:
+        id: AC0_MUXPOS
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '7'
+          type: User
+        type: Values
+      type: KeyValueSet
+    AC_COMPCTRL_0SINGLE_MODE:
+      attributes:
+        id: AC_COMPCTRL_0SINGLE_MODE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    AC_COMP_ID_ENUM_0:
+      attributes:
+        id: AC_COMP_ID_ENUM_0
+      children:
+      - children:
+        - attributes:
+            id: ac
+            value: AC_CHANNEL0
+          type: Dynamic
+        type: Values
+      type: String
+    AC_COMP_ID_ENUM_1:
+      attributes:
+        id: AC_COMP_ID_ENUM_1
+      children:
+      - children:
+        - attributes:
+            id: ac
+            value: AC_CHANNEL1
+          type: Dynamic
+        type: Values
+      type: String
+    AC_EVCTRL_COMPEI0:
+      attributes:
+        id: AC_EVCTRL_COMPEI0
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    AC_IS_DAC_PRESENT:
+      attributes:
+        id: AC_IS_DAC_PRESENT
+      children:
+      - children:
+        - attributes:
+            id: ac
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    ANALOG_COMPARATOR_ENABLE_0:
+      attributes:
+        id: ANALOG_COMPARATOR_ENABLE_0
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    COMP0INTERRUPT_ENABLE:
+      attributes:
+        id: COMP0INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}
