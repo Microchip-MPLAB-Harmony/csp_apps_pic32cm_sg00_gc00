@@ -60,12 +60,12 @@
 // *****************************************************************************
 #define CAN_STD_ID_Msk        0x7FFU
 
-volatile static CAN_TX_FIFO_CALLBACK_OBJ can0TxFifoCallbackObj;
-volatile static CAN_TX_EVENT_FIFO_CALLBACK_OBJ can0TxEventFifoCallbackObj;
-volatile static CAN_TXRX_BUFFERS_CALLBACK_OBJ can0RxBufferCallbackObj;
-volatile static CAN_RX_FIFO_CALLBACK_OBJ can0RxFifoCallbackObj[2];
-volatile static CAN_CALLBACK_OBJ can0CallbackObj;
-volatile static CAN_OBJ can0Obj;
+static volatile CAN_TX_FIFO_CALLBACK_OBJ can0TxFifoCallbackObj;
+static volatile CAN_TX_EVENT_FIFO_CALLBACK_OBJ can0TxEventFifoCallbackObj;
+static volatile CAN_TXRX_BUFFERS_CALLBACK_OBJ can0RxBufferCallbackObj;
+static volatile CAN_RX_FIFO_CALLBACK_OBJ can0RxFifoCallbackObj[2];
+static volatile CAN_CALLBACK_OBJ can0CallbackObj;
+static volatile CAN_OBJ can0Obj;
 
 static const can_mram_sidfe_registers_t can0StdFilter[] =
 {
