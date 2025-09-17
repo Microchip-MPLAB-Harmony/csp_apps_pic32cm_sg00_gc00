@@ -1,0 +1,970 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.2
+device: PIC32CM5112SG00100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '560'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    EIC_CLOCK_ENABLE:
+      attributes:
+        id: EIC_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_CLOCK_FREQUENCY:
+      attributes:
+        id: EIC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '36000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EIC_EXTINT12_INTERRUPT_ENABLE:
+      attributes:
+        id: EIC_EXTINT12_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_EXTINT12_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: EIC_EXTINT12_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_EXTINT12_INTERRUPT_HANDLER:
+      attributes:
+        id: EIC_EXTINT12_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: EIC_EXTINT12_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    EIC_EXTINT12_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: EIC_EXTINT12_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_EXTINT12_SET_NON_SECURE:
+      attributes:
+        id: EIC_EXTINT12_SET_NON_SECURE
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_EXTINT8_INTERRUPT_ENABLE:
+      attributes:
+        id: EIC_EXTINT8_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_EXTINT8_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: EIC_EXTINT8_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_EXTINT8_INTERRUPT_HANDLER:
+      attributes:
+        id: EIC_EXTINT8_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: EIC_EXTINT8_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    EIC_EXTINT8_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: EIC_EXTINT8_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: eic
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EIC_IS_NON_SECURE:
+      attributes:
+        id: EIC_IS_NON_SECURE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    FUSE_SYMBOL_VALUE111:
+      attributes:
+        id: FUSE_SYMBOL_VALUE111
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE211:
+      attributes:
+        id: FUSE_SYMBOL_VALUE211
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Hex
+    FUSE_SYMBOL_VALUE213:
+      attributes:
+        id: FUSE_SYMBOL_VALUE213
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '64'
+          type: Dynamic
+        type: Values
+      type: Hex
+    FUSE_SYMBOL_VALUE215:
+      attributes:
+        id: FUSE_SYMBOL_VALUE215
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Hex
+    FUSE_SYMBOL_VALUE286:
+      attributes:
+        id: FUSE_SYMBOL_VALUE286
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE29:
+      attributes:
+        id: FUSE_SYMBOL_VALUE29
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE318:
+      attributes:
+        id: FUSE_SYMBOL_VALUE318
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE336:
+      attributes:
+        id: FUSE_SYMBOL_VALUE336
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE368:
+      attributes:
+        id: FUSE_SYMBOL_VALUE368
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE468:
+      attributes:
+        id: FUSE_SYMBOL_VALUE468
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE470:
+      attributes:
+        id: FUSE_SYMBOL_VALUE470
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '64'
+          type: Dynamic
+        type: Values
+      type: Hex
+    FUSE_SYMBOL_VALUE472:
+      attributes:
+        id: FUSE_SYMBOL_VALUE472
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Hex
+    FUSE_SYMBOL_VALUE61:
+      attributes:
+        id: FUSE_SYMBOL_VALUE61
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FUSE_SYMBOL_VALUE79:
+      attributes:
+        id: FUSE_SYMBOL_VALUE79
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    GCLK_ID_5_CHEN:
+      attributes:
+        id: GCLK_ID_5_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_5_FREQ:
+      attributes:
+        id: GCLK_ID_5_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '36000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    IDAU_ANSC_SIZE:
+      attributes:
+        id: IDAU_ANSC_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    IDAU_ANS_SIZE:
+      attributes:
+        id: IDAU_ANS_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '64'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    IDAU_AS_SIZE:
+      attributes:
+        id: IDAU_AS_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '63'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    IDAU_BS_SIZE:
+      attributes:
+        id: IDAU_BS_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '3'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    NON_SEC_START_ADDRESS:
+      attributes:
+        id: NON_SEC_START_ADDRESS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '201588736'
+          type: Dynamic
+        type: Values
+      type: Hex
+    NVIC_24_0_ENABLE:
+      attributes:
+        id: NVIC_24_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_24_0_HANDLER:
+      attributes:
+        id: NVIC_24_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: EIC_EXTINT8_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_24_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_24_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_28_0_ENABLE:
+      attributes:
+        id: NVIC_28_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_28_0_HANDLER:
+      attributes:
+        id: NVIC_28_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: EIC_EXTINT12_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_28_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_28_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_28_0_SECURITY_TYPE:
+      attributes:
+        id: NVIC_28_0_SECURITY_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIN_13_DIR:
+      attributes:
+        id: PIN_13_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_13_FUNCTION_NAME:
+      attributes:
+        id: PIN_13_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: LED_NON_SECURE
+          type: User
+        type: Values
+      type: String
+    PIN_13_FUNCTION_TYPE:
+      attributes:
+        id: PIN_13_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_13_INEN:
+      attributes:
+        id: PIN_13_INEN
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_13_IS_NON_SECURE:
+      attributes:
+        id: PIN_13_IS_NON_SECURE
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    PIN_13_LAT:
+      attributes:
+        id: PIN_13_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    PIN_13_MODE:
+      attributes:
+        id: PIN_13_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_13_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_13_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_24_DIR:
+      attributes:
+        id: PIN_24_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_24_FUNCTION_NAME:
+      attributes:
+        id: PIN_24_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: LED_SECURE
+          type: User
+        type: Values
+      type: String
+    PIN_24_FUNCTION_TYPE:
+      attributes:
+        id: PIN_24_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_24_INEN:
+      attributes:
+        id: PIN_24_INEN
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_24_LAT:
+      attributes:
+        id: PIN_24_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    PIN_24_MODE:
+      attributes:
+        id: PIN_24_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_24_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_24_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_27_FUNCTION_TYPE:
+      attributes:
+        id: PIN_27_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: EIC_EXTINT8
+          type: User
+        type: Values
+      type: String
+    PIN_27_MODE:
+      attributes:
+        id: PIN_27_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_27_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_27_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_35_FUNCTION_TYPE:
+      attributes:
+        id: PIN_35_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: EIC_EXTINT12
+          type: User
+        type: Values
+      type: String
+    PIN_35_IS_NON_SECURE:
+      attributes:
+        id: PIN_35_IS_NON_SECURE
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    PIN_35_MODE:
+      attributes:
+        id: PIN_35_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_35_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_35_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_0_DIR:
+      attributes:
+        id: PORT_GROUP_0_DIR
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x140000'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_NONSEC:
+      attributes:
+        id: PORT_GROUP_0_NONSEC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '262144'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PORT_GROUP_0_OUT:
+      attributes:
+        id: PORT_GROUP_0_OUT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x140000'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_18:
+      attributes:
+        id: PORT_GROUP_0_PAD_18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA18
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PAD_20:
+      attributes:
+        id: PORT_GROUP_0_PAD_20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PA20
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG18:
+      attributes:
+        id: PORT_GROUP_0_PINCFG18
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PINCFG20:
+      attributes:
+        id: PORT_GROUP_0_PINCFG20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PIN_18_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_18_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PIN_20_USED:
+      attributes:
+        id: PORT_GROUP_0_PIN_20_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_0_PMUX10:
+      attributes:
+        id: PORT_GROUP_0_PMUX10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_0_PMUX9:
+      attributes:
+        id: PORT_GROUP_0_PMUX9
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_NONSEC:
+      attributes:
+        id: PORT_GROUP_1_NONSEC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2048'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PORT_GROUP_1_PAD_11:
+      attributes:
+        id: PORT_GROUP_1_PAD_11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB11
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_7:
+      attributes:
+        id: PORT_GROUP_1_PAD_7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB07
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG11:
+      attributes:
+        id: PORT_GROUP_1_PINCFG11
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG7:
+      attributes:
+        id: PORT_GROUP_1_PINCFG7
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PIN_11_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_11_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_7_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_7_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PMUX3:
+      attributes:
+        id: PORT_GROUP_1_PMUX3
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PMUX5:
+      attributes:
+        id: PORT_GROUP_1_PMUX5
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2_NONSEC:
+      attributes:
+        id: PORT_GROUP_2_NONSEC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PORT_GROUP_3_NONSEC:
+      attributes:
+        id: PORT_GROUP_3_NONSEC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PORT_IS_NON_SECURE:
+      attributes:
+        id: PORT_IS_NON_SECURE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '108'
+        canvasWidth: '937'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
