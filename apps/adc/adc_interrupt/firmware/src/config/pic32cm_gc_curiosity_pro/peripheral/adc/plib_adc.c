@@ -53,7 +53,7 @@
 #define ADC_CALIB_FCCFG65           *((uint32_t*)0xa007184)
 
 
-volatile static ADC_CORE_CALLBACK_OBJECT ADC_CoreCallbackObj[1];
+static volatile ADC_CORE_CALLBACK_OBJECT ADC_CoreCallbackObj[1];
 
 void ADC_Initialize(void)
 {
