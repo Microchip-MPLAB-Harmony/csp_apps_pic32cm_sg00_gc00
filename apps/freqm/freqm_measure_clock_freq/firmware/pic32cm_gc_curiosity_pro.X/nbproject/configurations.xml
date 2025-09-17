@@ -150,8 +150,20 @@
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro" displayName="freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro" projectFiles="true">
+        <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/cmsis.yml</itemPath>
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/core.yml</itemPath>
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/dfp.yml</itemPath>
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/evsys.yml</itemPath>
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/freqm.yml</itemPath>
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/pm.yml</itemPath>
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/sercom4.yml</itemPath>
+          <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/components/stdio.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>freqm_measure_clock_freq_pic32cm_gc_curiosity_pro.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
@@ -212,12 +224,12 @@
         <targetPluginBoard/>
         <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
         <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
-        <pack name="PIC32CM-GC00_DFP" vendor="Microchip" version="1.0.23"/>
+        <pack name="PIC32CM-GC00_DFP" vendor="Microchip" version="1.0.27"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
