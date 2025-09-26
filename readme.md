@@ -13,9 +13,9 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM-GC/SG family
 
 - [Release Notes](release_notes.md)
-- [Microchip SLA](Microchip_SLA001.md)
+- [License](License.md)
 
-To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc) and then click **Clone** button to clone this repository or download as zip file.
+To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00) and then click **Clone** button to clone this repository or download as zip file.
 This content can also be downloaded using MCC content manager available as part of the MPLAB® X IDE.
 
 ## Contents Summary
@@ -26,7 +26,7 @@ This content can also be downloaded using MCC content manager available as part 
 
 ## Code Examples
 
-Click [here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CSP_APPS_PIC32CM_SG_GC_INTRODUCTION&redirect=true) to view the online documentation of code examples hosted in this repository.
+Click [here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CSP_APPS_PIC32CM_SG00_GC00_INTRODUCTION&redirect=true) to view the online documentation of code examples hosted in this repository.
 
 To view the documentation offline, follow these steps:
  - Download the publication as a zip file from [here](https://onlinedocs.microchip.com/download/GUID-6BA29A63-EBA8-4692-9DF3-D32DCEA3596C?type=webhelp).
@@ -35,11 +35,11 @@ To view the documentation offline, follow these steps:
 
 ____
 
-[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc/blob/master/Microchip_SLA001.md)
-[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc/releases/latest)
-[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc/releases/latest)
-[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc/graphs/commit-activity)
-[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc.svg)]()
+[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00/blob/master/License.md)
+[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00/releases/latest)
+[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00/releases/latest)
+[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00/graphs/commit-activity)
+[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00.svg)]()
 
 ____
 
@@ -50,5 +50,5 @@ ____
 [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/)
 [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech)
 
-[![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc.svg?style=social)]()
-[![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg_gc.svg?style=social)]()
+[![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00.svg?style=social)]()
+[![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/csp_apps_pic32cm_sg00_gc00.svg?style=social)]()
