@@ -169,6 +169,7 @@
         <itemPath>tcc_compare_mode_pic32cm_gc_curiosity_pro_pic32cm_gc_curiosity_pro/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/pic32cm_gc_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -220,7 +221,6 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
-      <itemPath>../src/config/pic32cm_gc_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -238,7 +238,7 @@
       </toolsSet>
       <packs>
         <pack name="PIC32CM-GC00_DFP" vendor="Microchip" version="1.0.27"/>
-        <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
+        <pack name="CMSIS" vendor="ARM" version="5.9.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
