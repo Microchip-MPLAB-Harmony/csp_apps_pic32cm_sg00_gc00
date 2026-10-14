@@ -3,6 +3,30 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 peripheral library application examples for PIC32CM-GC/SG family v3.1.2
+
+### Development kit and demo application support
+
+Following table provides number of peripheral library examples available for different development kits.
+
+| Development Kits  | MPLAB X applications |
+|:-----------------:|:-------------------:|
+| PIC32CM GC00 Curiosity Pro board | 33 |
+| PIC32CM SC00 Curiosity Pro board | 6 |
+
+### New Features
+
+- None
+
+### Bug fixes
+
+- Updated mcramc demo for IAR compatibility
+
+### Known Issues
+
+- None
+
+
 ## Harmony 3 peripheral library application examples for PIC32CM-GC/SG family v3.1.1
 
 ### Development kit and demo application support
